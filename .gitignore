@@ -34,3 +34,6 @@ static/data/*
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Firebase
+.firebase/*
