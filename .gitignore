@@ -27,4 +27,5 @@ bin-release/
 # Hugo
 public/
 
-# Backup Files
+# No data committed
+static/data/*

@@ -64,3 +64,9 @@ url = "alex.dolphin@dolphindata.co.uk"
   identifier = "posts"
   url = "/post/"
 
+  [[menu.main]]
+  name = "Weight"
+  weight = 300
+  identifier = "template"
+  url = "/page/weight"
+
