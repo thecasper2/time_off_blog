@@ -3,7 +3,7 @@ title: "Introduction"
 author: "Alex Dolphin"
 date: 2020-05-17T13:26:00+01:00
 categories: ["R"]
-tags: ["statistics", "weight", "exercise", "food"]
+tags: ["statistics", "fitness", "food"]
 ---
 
 ```{r setup, include=FALSE}
@@ -26,6 +26,35 @@ taking the time to read this. In an effort to keep it engaging I would love
 to hear your feedback, even the most critical feedback I will take positively.
 Feel free to get in touch through any of the links on the left.
 
+# Cooking
+
+For around 7 years now I have had an interest in cooking, and for this I need 
+to assign a little credit to [James Conolly](https://www.instagram.com/conolly/).
+We shared a house together for a little over a year whilst we were working at
+BAE Systems and he was always cooking something fancy. After a while I decided
+I wanted to try and keep up, and once I got started it was hard to go back to
+bad food.
+
+<center>
+![I love making pizza](/post/20200517_introduction_files/pizza.jpg){width=50% height=50%}
+
+</center>
+
+In the past couple of years I found myself being a little lazy when it came to
+food. I would order takeaway more often than I was used to, and my home-cooked
+dishses weren't as inspiring as they used to be. Hopefully you can appreciate
+that after a long working day, a couple of hours shopping and cooking aren't
+always so appealing.
+
+Now I am reverting back to an old method that served me well around 5 years ago.
+I plan 7 days of meals every Sunday with specific recipies. This means I can go
+shopping on the Monday with a precise set of ingredients to buy, and know that
+I can make really nice meals every day, usually with enough left over for lunch
+the next day!
+
+So from now on I will document these meal plans and take some nice pictures, and
+if all goes well hopefully I can inspire you to try some yourself!
+
 # Statistics
 
 When I said engaging content my prior belief tells me that statistics didn't
@@ -44,14 +73,35 @@ course I am also building a number of small applications to help visualise the
 concepts in the course in R shiny. For now it is a work-in-progress, but you
 can follow it [right here!](https://github.com/thecasper2/improving_your_statistical_inferences)
 
-# Cooking
+# Fitness
 
-...
+I have a rather mixed history with fitness. On the one hand I have enjoyed a
+number of fitness activities over my life, I always enjoyed playing football
+and I have been a keen cyclist since a teenager. On the other hand I have
+suffered a number of injuries over the years: ankle sprains, knee pain, and
+most severely a disc herniation in my lower back. On top of this I am not an
+ideal weight, I am not hugely overweight but I definitely could do with losing
+some.
+
+<center>
+![A cycling adventure with Rich](/post/20200517_introduction_files/alex_rich_cycle.jpg){width=50% height=50%}
+
+</center>
+
+Much like cooking hopefully you appreciate that after a full working day it is
+tough to think about exercise, whether that is going to the gym or even just
+walking or cycling home. I decided I am out of excuses to focus on my health,
+so now exercise is at the forefront of my activities.
+
+I am attempting to cycle at least twice a week and I record my activities
+[on my strava account](https://www.strava.com/athletes/10527204). I would love
+for you to follow me and tell me when I am not training hard enough!
+
+The ultimate tracker for this is my weight, it isn't a comprehensive measure of
+health but it is certainly an important one. I have some digital scales in the
+bathroom and weigh myself most mornings. I am going to upload the data to this
+blog, and you can follow my progress on the [weight page](/page/weight).
 
 # Drone Flying
-
-...
-
-# Exercise
 
 ...

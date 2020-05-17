@@ -29,3 +29,8 @@ public/
 
 # No data committed
 static/data/*
+
+# Mac general
+.DS_Store
+.AppleDouble
+.LSOverride
