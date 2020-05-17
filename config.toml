@@ -40,7 +40,7 @@ url = "https://github.com/thecasper2/"
 [[params.socialIcons]]
 icon = "fa fa-envelope"
 title = "e-mail"
-url = "alex.dolphin@dolphindata.co.uk"
+url = "mailto:alex.dolphin@dolphindata.co.uk"
 
 [[params.socialIcons]]
 icon = "fab fa-strava"
