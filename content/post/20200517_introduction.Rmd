@@ -10,10 +10,48 @@ tags: ["statistics", "weight", "exercise", "food"]
 knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
 ```
 
-# Introduction
+It has been two weeks of break and I am about ready to start writing!
 
-Hello!
+The two weeks have been simultaneously relaxing and eventful. After 8 years of
+full-time working I haven't been in a hurry to be extremely productive too fast,
+but have focused mostly on a couple of hobbies and a bit of online learning.
 
-# And more
+In this first post I wanted to give an introduction to these activities as
+some of you may not be familiar with all of them. I am aware that just talking
+about each of them may not be very engaging, so I will try and generate some
+nice content that hopefully makes you want to come back for the next post!
 
-Hello again!
+Before I get started on the activities I want to say thank you for at least
+taking the time to read this. In an effort to keep it engaging I would love
+to hear your feedback, even the most critical feedback I will take positively.
+Feel free to get in touch through any of the links on the left.
+
+# Statistics
+
+When I said engaging content my prior belief tells me that statistics didn't
+come to your mind. Given that I am writing this blog in R Blogdown, it should
+be possible for me to convince you otherwise in the long run.
+
+At the time of writing I am part of the way through an online course called
+[Improving your statistical inferences](https://www.coursera.org/learn/statistical-inferences/home/welcome).
+From my time working at trivago as a Data Scientist I knew deep down that my
+lack of statistics knowledge was driving me to bad conclusions more often than
+I would like to believe. By the end of the course I hope to be much better in
+experiment design, and more importantly drawing statistical inferences!
+
+I promised content and content I shall eventually deliver. As well as doing the
+course I am also building a number of small applications to help visualise the
+concepts in the course in R shiny. For now it is a work-in-progress, but you
+can follow it [right here!](https://github.com/thecasper2/improving_your_statistical_inferences)
+
+# Cooking
+
+...
+
+# Drone Flying
+
+...
+
+# Exercise
+
+...
