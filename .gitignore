@@ -5,4 +5,4 @@
 # Don't commit the example, it's just for reference
 templates/example.Rmd
 # Don't commit any rendered template
-templates/*.html
+templates/examples/*
