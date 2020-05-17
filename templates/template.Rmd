@@ -1,0 +1,19 @@
+---
+title: "Template"
+author: "Alex Dolphin"
+date: 2020-05-17T13:26:00+01:00
+categories: ["R"]
+tags: ["statistics", "weight", "exercise", "food"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Introduction {.tabset}
+
+...
+
+## Tab 1
+
+## Tab 2
