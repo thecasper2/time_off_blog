@@ -47,6 +47,16 @@ icon = "fab fa-strava"
 title = "Strava"
 url = "https://www.strava.com/athletes/10527204"
 
+[[params.socialIcons]]
+icon = "fab fa-youtube"
+title = "YouTube"
+url = "https://www.youtube.com/user/thecasper2"
+
+[[params.socialIcons]]
+icon = "fab fa-facebook"
+title = "Facebook"
+url = "https://www.facebook.com/highoctanefool"
+
 ## Menu items
 
 [menu]
