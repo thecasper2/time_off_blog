@@ -1,0 +1,66 @@
+baseURL = "/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "An Adventure"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[params]
+title = "Alex Dolphin"
+author = "Alex Dolphin"
+description = "A career break adventure"
+profilePicture = "images/alexdolphin.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/alexdolphin"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/thecasper2/"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "alex.dolphin@dolphindata.co.uk"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 200
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 300
+  identifier = "posts"
+  url = "/post/"
+
