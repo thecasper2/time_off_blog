@@ -73,15 +73,21 @@ url = "https://www.facebook.com/highoctanefool"
   identifier = "about"
   url = "/about/"
 
-  [[menu.main]]
-  name = "Posts"
-  weight = 300
-  identifier = "posts"
-  url = "/post/"
+#  [[menu.main]]
+#  name = "Posts"
+#  weight = 300
+#  identifier = "posts"
+#  url = "/post/"
 
   [[menu.main]]
   name = "Weight"
-  weight = 300
+  weight = 400
   identifier = "template"
   url = "/page/weight"
+
+  [[menu.main]]
+  name = "Food"
+  weight = 500
+  identifier = "food"
+  url = "/tags/food"
 
