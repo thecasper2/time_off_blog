@@ -1,0 +1,22 @@
+---
+title: "Drone Flights"
+author: "Alex Dolphin"
+date: 2020-05-18T18:50:00+01:00
+categories: ["R"]
+tags: ["drone"]
+---
+
+At the start of 2020 I purchased a
+[Parrot Disco fixed-wing drone](https://www.parrot.com/be/drones/parrot-disco-fpv)
+from eBay, flying fixed-wing seemed much more exciting than a standard
+quadcopter drone. Now that I am the proud owner of a Parrot Disco, I will post
+the footage taken below for you to enjoy!
+
+# The Sculpture Hall - Neuss
+
+My first flight at [The Sculpture Hall](https://goo.gl/maps/RtcTrGTtsnR8Z21x9)
+near the Museum Island (Museumsinsel - Hombroich) on 09/03/2020.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UD10r4qF2io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
