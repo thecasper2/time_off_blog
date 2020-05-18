@@ -1,0 +1,38 @@
+---
+title: "Project Ginger Beer"
+author: "Alex Dolphin"
+date: 2020-05-18T19:21:00+01:00
+categories: ["R"]
+tags: ["food"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+Today I embarked on the mission of brewing ginger beer!
+
+This escapade came about mostly by chance. I say chance but actually I am fully
+aware of the power modern-day recommender systems much like YouTube uses. I was
+kindly introduced by YouTube to the following
+[recipe for brewing ginger beer](https://www.youtube.com/watch?v=IpgSS7moEzI).
+
+I will update this project post with the latest developments in my ginger
+brewing process. There will be no publication bias, if it fails I will still
+show my failure. If the resulting mixture kills me, then I will ensure someone
+updates it with a warning about not following my process.
+
+# The Ginger Bug
+
+The first step is creating the "ginger bug": a mixture of ginger, sugar and
+water designed to stimulate the growth of the yeast that naturally occurs on
+root ginger.
+
+![My ginger bug](/post/project_ginger_beer_files/ginger_bug.jpg){width=50% height=50%}
+
+This process is quite similar to the one I use to create a sourdough yeast for
+pizza. That one is simply a mixture of flour and water, apparently the
+carbohydrates in flour are sufficient food for the yeast that also lives inside
+the flour.
+
+More to follow later!
