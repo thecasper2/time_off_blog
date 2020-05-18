@@ -91,3 +91,8 @@ url = "https://www.facebook.com/highoctanefool"
   identifier = "food"
   url = "/tags/food"
 
+  [[menu.main]]
+  name = "Drone"
+  weight = 600
+  identifier = "drone"
+  url = "/page/drone"
