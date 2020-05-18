@@ -28,7 +28,10 @@ The first step is creating the "ginger bug": a mixture of ginger, sugar and
 water designed to stimulate the growth of the yeast that naturally occurs on
 root ginger.
 
+<center>
 ![My ginger bug](/post/project_ginger_beer_files/ginger_bug.jpg){width=50% height=50%}
+
+</center>
 
 This process is quite similar to the one I use to create a sourdough yeast for
 pizza. That one is simply a mixture of flour and water, apparently the
