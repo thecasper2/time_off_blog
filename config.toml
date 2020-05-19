@@ -12,6 +12,8 @@ enableEmoji = true
 # Google Analytics
 googleAnalytics = "UA-166941798-1"
 
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
 [params]
 title = "Alex Dolphin"
 author = "Alex Dolphin"
@@ -60,7 +62,7 @@ url = "https://www.facebook.com/highoctanefool"
 [[params.socialIcons]]
 icon = "fas fa-rss"
 title = "RSS"
-url = "/post/index.xml"
+url = "/index.xml"
 
 ## Menu items
 
