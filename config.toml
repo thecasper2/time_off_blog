@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "An Adventure"
+title = "A career break adventure"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
@@ -56,6 +56,11 @@ url = "https://www.youtube.com/user/thecasper2"
 icon = "fab fa-facebook"
 title = "Facebook"
 url = "https://www.facebook.com/highoctanefool"
+
+[[params.socialIcons]]
+icon = "fas fa-rss"
+title = "RSS"
+url = "/post/index.xml"
 
 ## Menu items
 
