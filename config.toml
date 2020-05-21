@@ -60,6 +60,11 @@ title = "Facebook"
 url = "https://www.facebook.com/highoctanefool"
 
 [[params.socialIcons]]
+icon = "fab fa-untappd"
+title = "Untappd"
+url = "https://untappd.com/user/thecasper2/"
+
+[[params.socialIcons]]
 icon = "fas fa-rss"
 title = "RSS"
 url = "/index.xml"
