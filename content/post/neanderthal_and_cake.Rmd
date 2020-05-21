@@ -1,0 +1,65 @@
+---
+title: "Neanderthals, Cake, and Sweden"
+author: "Alex Dolphin"
+date: 2020-05-21T22:26:00+01:00
+categories: ["R"]
+tags: ["fitness", "food"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+Today Thomas and I embarked on a cycling adventure to the Neanderthal museum.
+I rounded it off by making some lemon drizzle cake (there is a video!) and
+then making vegetarian Swedish meatballs for dinner.
+
+For those of you who are desperately waiting for some hardcore statistics as I
+promised in the introduction post then I can only apologise. Tomorrow I'm back
+on the studying so I suspect you'll be treated to the pitfalls of interpreting
+effect sizes in a day or two.
+
+# Neanderthal
+
+27 degrees is starting to become a fairly normal spring day in Düsseldorf I
+have noticed in recent years, but it does make cycling a bit more interesting.
+[Thomas](https://www.instagram.com/thomaspiauley/) and I embarked on a
+[40km round cycle](https://www.strava.com/activities/3488352451)
+to the Neanderthal museum.
+
+<center>
+![Bikes relaxing outside the museum](/post/neanderthal_and_cake_files/IMG_20200521_143130_1.jpg){width=50% height=50%}
+
+</center>
+
+My bike isn't doing so well at the moment as one of the gear shifters snapped
+off. I can only gear down which was ideal for the uphills, but somewhat
+frustrating for the numerous downhills. Nevertheless we chilled out outside the
+museum and
+[enjoyed a beer](https://untappd.com/user/thecasper2/checkin/897811172).
+
+# Lemon Drizzle Cake
+
+There was a bonus in the meal planning this week: lemon drizzle cake. I was
+following
+[this recipe](https://www.allrecipes.com/recipe/262234/best-ever-lemon-drizzle-cake/)
+I found online and the results were fairly pleasing. If you want to see me
+making it, look no further:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nh0Zc3f8U5k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+# Vegetarian Swedish Meatballs
+
+And finally, in this somewhat eventful day, I made vegetarian Swedish
+meatballs for dinner. The sauce is a bit questionable, maybe because I used a
+low-quality stock, but overall I'm still quite happy with the dish. For those
+interested
+[here is the recipe](https://pinchofyum.com/vegetarian-swedish-meatballs).
+
+<center>
+![Vegetarian Swedish Meatballs](/post/neanderthal_and_cake_files/IMG_20200521_211528.jpg){width=50% height=50%}
+
+</center>
