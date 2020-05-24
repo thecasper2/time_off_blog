@@ -1,0 +1,347 @@
+---
+title: "Confidence Intervals & Credible Intervals"
+author: "Alex Dolphin"
+date: 2020-05-24T11:03:00+01:00
+categories: ["R"]
+tags: ["statistics"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>You’ve read tales of cycling, cake, and ginger beer, and thought “that’s all
+well and good, but I when is he going to explain the definition of a confidence
+interval?”</p>
+<p>As a Data Scientist this is a question that genuinely causes me fear. In the
+world of business confidence intervals (hereby known as CI) appear in things
+such as A/B testing. For example imagine a company with a website, they may
+choose to show one version of the website to half the visitors and another to
+the other half. Some kind statistician within the company may then report:
+“Website B brings 1.03 times more revenue per vistors than website A with a 95%
+CI of [1.02, 1.04]. Then comes the troublesome part, a non-statistician sees
+this and asks”does that mean there is a 95% chance website B generates 1.02
+to 1.04 times more revenue than A".</p>
+<p>Well, does it?</p>
+<p>Recently I have started down the past of honest self-reflection. As a Data
+Scientist of 4 years and a Mathematics Masters student for 4 years questions
+like these should be trivial to me, but they are not. I am now undertaking a
+fairly basic
+<a href="https://www.coursera.org/learn/statistical-inferences/home/welcome">statistics course on Coursera</a>
+to rebuild this knowledge, and today I am going to attempt to explain the
+correct interpretation of a confidence interval. And as an added bonus I will
+also explain what is a “credible interval”. So here goes nothing…</p>
+<div id="confidence-intervals" class="section level1">
+<h1>Confidence Intervals</h1>
+<p>Let’s first set out an example. Online courses seem to love the example of
+someone trying to measure the IQ of some population so I’ll try and mix it up
+a little. Let’s say we are trying to estimate the mean monthly rent for a
+property in London (in £). We could try to get the exact value by asking
+everyone in London but that seems a little cumbersome, so instead we will simply
+ask a sample of people.</p>
+<p>Once we have our sample there are a number of ways we can calculate a confidence
+interval (
+<a href="https://www.statisticshowto.com/probability-and-statistics/confidence-interval/#CISampl">see here</a>
+for some examples) but I want to focus on the interpretation, so we’ll be using
+a t-distribution. We can calculate the 95% confidence interval as follows:</p>
+<pre class="r"><code># Set the true mean and standard deviation
+mu &lt;- 1200 # That&#39;s £1200 a month
+sd &lt;- 300   # With a standard deviation of 300
+n &lt;- 30    # We manage to sample 30 people in London
+set.seed(23)
+# We simulate collecting this sample
+sample &lt;- rnorm(n=n, mean=mu, sd=sd)
+# We identify the sample mean (which will differ from the true mean)
+sample_mean &lt;- mean(sample)
+sample_sd &lt;- sd(sample)
+
+# We can then calculate the confidence interval by subtracting and adding
+# this error term to the sample mean respectively
+error &lt;- qt(1 - (0.05/2), df=n-1)*sample_sd/sqrt(n)
+cat(
+    paste0(
+        &quot;The sample mean is: &quot;, round(sample_mean, 2),
+        &quot;\nThe 95% CI is: [&quot;, round(sample_mean - error ,2), &quot;,&quot;,
+        round(sample_mean + error, 2), &quot;]&quot;
+    )
+)
+## The sample mean is: 1247.17
+## The 95% CI is: [1153.12,1341.22]</code></pre>
+<p>So after asking 30 people we find that the mean rent is
+<strong>£1247.17</strong>, with a 95% CI of
+<strong>[1153.12, 1341.22]</strong>.
+It may be tempting to think that this means there is a 95% chance the true
+population mean is in that range, but this isn’t right. In fact we already know
+from the way we constructed our simulation that the true mean is £1200, and as
+such it is definitely in that range! This is true even when we don’t set the
+value for ourselves, in reality the “true” value is fixed and it is either
+definitely in our interval or definitely not.</p>
+<p>So then what does the interval mean? Actually it is relatively simple, it tells
+us how often in the long run the true mean will actually fall inside the
+interval. If you continually do experiments such as the one above and report
+95% confidence intervals, 95% of the time the true population parameter (in our
+case the true mean rent in London) will be in that confidence interval.</p>
+<p>Let’s make that a little more visual. Suppose we did this simulation sample of
+30 people over and over again on the same population, how would all the
+confidence intervals look then?</p>
+<pre class="r"><code># Let&#39;s run the simulation of sampling of 30 people 10000 times
+n_simulations &lt;- 10000
+# For each simulation we record the confidence interval
+ci_lower &lt;- numeric(n_simulations)
+ci_upper &lt;- numeric(n_simulations)
+means &lt;- numeric(n_simulations)
+set.seed(23)
+for(sim in seq(n_simulations)){
+    # Run the simulation
+    x &lt;- rnorm(n=n, mean=mu, sd=sd)
+    # Calculate the error term
+    means[sim] &lt;- mean(x)
+    sample_sd &lt;- sd(x)
+    error &lt;- qt(1 - (0.05/2), df=n-1)*sample_sd/sqrt(n)
+    # Save the confidence intervals
+    ci_lower[sim] &lt;- means[sim] - error
+    ci_upper[sim] &lt;- means[sim] + error
+}
+# Group them together and order by the lower interval
+simulations &lt;- data.table(
+    mean = means, ci_lower = ci_lower, ci_upper = ci_upper
+)
+simulations &lt;- simulations[order(means)]
+simulations$row_num &lt;- 1:n_simulations
+
+# Identify for each simulation if the CI contains the true mean
+simulations[, contains_true_mean := ((ci_lower &lt;= mu) &amp; ( ci_upper &gt;= mu))]
+
+# Plot intervals
+ggplot(simulations) +
+    geom_linerange(
+        aes(x=row_num, ymin=ci_lower, ymax=ci_upper, col=contains_true_mean)
+    ) +
+    geom_hline(yintercept=mu, linetype=&quot;dashed&quot;) +
+    theme_bw() +
+    labs(
+        x=&quot;Simulations&quot;,
+        y=&quot;Confidence Interval&quot;,
+        col=&quot;Contains true mean:&quot;,
+        title=paste0(
+            &quot;95% Confidence intervals from &quot;, n_simulations,
+            &quot; simulations each with &quot;, n, &quot; samples&quot;
+        ),
+        subtitle=paste0(&quot;True population mean: &quot;, mu)
+    ) +
+    facet_grid(~contains_true_mean) +
+    theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())</code></pre>
+<p><img src="/post/confidence_and_credible_interval_files/figure-html/repeat_sampling-1.png" width="672" /></p>
+<p>After 10000 simulations we can see that many of our sample confidence intervals
+did contain the true population mean, and some did not.
+In fact the exact proportion was
+<strong>94.99 %</strong>.
+This is where our 95% comes from. In the long run if we keep constructing
+95% confidence intervals for different samples then they will contain the
+true population parameter (in our case the mean rent) 95% of the time!</p>
+<p>The unfortunate thing is that normally in an experiment you will only do this
+sampling once. As such you will only build one confidence interval and you
+may end up building one that doesn’t contain the true mean, all that time
+sampling and you may be missing the true value. But you know from that sampling
+that different true values are possible, sure it doesn’t seem very likely given
+the data that the true value is actually true but it’s still possible, wouldn’t
+it be nice to see how likely any value is? This is more suited to the field
+of Bayesian statistics which we will see more of in the next section.</p>
+</div>
+<div id="credible-intervals" class="section level1">
+<h1>Credible Intervals</h1>
+<p>This is where it gets a little tough for me, but I will give my interpretation
+of the difference between this intervals.</p>
+<p>Credible intervals come from the world of Bayesian statistics (contrary to the
+frequentist background of confidence intervals). Frequentist statistics, much
+like as we used in the example above, focuses on a single population parameter
+(e.g. the mean rent in London) and tries to capture this parameter accurately
+over a number of experiments. For each experiment we say we have some confidence
+our true parameter is in a given interval, and expect to be incorrect a certain
+percentage of experiments.</p>
+<p>The Bayesian approach looks at the parameter as a random variable, namely that
+different values of this parameter all have different likelihoods of being true.
+Sure we may have observed in our sample that the mean rent in London is £1247
+a month but we still think there is some likelihood about other values. A
+population mean of £1000 is still possible, and even £2000 with some lesser
+probability.</p>
+<p>What is unusual is that in the case we use an uninformative prior for the
+Bayesian approach, we actually get the same interval as the confidence interval.
+So what is a prior? This is in fact just a probability distrubition that says
+how likely each parameter is before we’ve seen the data. An uninformative prior
+says that we have no idea which values are more likely than another before we
+sample. But practically this isn’t true, is a mean monthly rent of £1200 really
+as likely as £200? Intuitively we think that £1200 is more likely either from
+anecdotal stories or some past data we might have seen.</p>
+<p>In Bayesian statistics we take this prior belief (a distribution) and update
+our belief using observed data (our samples). The result is what is known as a
+posterior distribution. It tells us the probability of any parameter value
+being true given the data we’ve observed. Then what is a credible interval?
+This is a range of parameter values that cover 95% of the posterior probability
+mass.</p>
+<p>This may be a little hard to follow so let’s extend our example above. We will
+simulate collecting the rent data for 30 households like before, but we will
+also incorporate a prior. Let’s say we assume £1500 is most likely but we don’t
+have too much certainty in this (we quantify this level of certainty through
+the prior’s variance). Let’s see below how this looks when we create a posterior
+distribution:</p>
+<pre class="r"><code># Let&#39;s set up a range of parameter values. We say we want to know likelihood
+# values for parameters (mean monthly rent) between £1000 and £2000 in steps of
+# £10
+param_vals &lt;- seq(1000, 2000, 10)
+# We firstly set up our prior
+prior_mu &lt;- 1500 # We assume a mean of £1500 per month
+prior_sd &lt;- 200  # But we don&#39;t know very strongly that that is the case
+# NOTE: this standard deviation shows our certainty around the value of the
+# mean, it does not express our belief about how the actual population mean
+# deviates. For example if we set this value to 0 that means we believe that
+# 1500 is the true value, and there is zero probability of any other value
+# being true.
+
+# We get the prior probability of each parameter value
+prior_probabilities &lt;- dnorm(param_vals, mean=prior_mu, sd=prior_sd)
+
+# Let&#39;s use our same 30 person sample as before, the variable was called
+# &quot;sample&quot;
+
+# Now using the prior and our data we can construct a posterior distribution
+# using our normal conjugate prior and the following formulae:
+# https://en.wikipedia.org/wiki/Conjugate_prior#Table_of_conjugate_distributions
+posterior_mu &lt;- ((prior_mu/(prior_sd^2)) + (sum(sample)/(sd^2)))/
+                ((1/prior_sd^2) + (n/(sd^2)))
+posterior_sigma &lt;- 1/((1/(prior_sd^2)) + (n/(sd^2)))
+posterior_probabilities &lt;- dnorm(
+    param_vals, mean=posterior_mu, sd=sqrt(posterior_sigma)
+)
+
+# Now combine all 3 together
+bayesian_update &lt;- data.table(
+    vals = param_vals,
+    prior = prior_probabilities,
+    posterior = posterior_probabilities
+)
+
+# Calculate the 95% credible interval
+ci_lower &lt;- qnorm(0.05/2, mean=posterior_mu, sd=sqrt(posterior_sigma))
+ci_upper &lt;- qnorm(1-(0.05/2), mean=posterior_mu, sd=sqrt(posterior_sigma))
+
+ggplot(melt(bayesian_update, id=&quot;vals&quot;), aes(x=vals, y=value, col=variable)) +
+    geom_line() +
+    geom_vline(xintercept = ci_lower, linetype=&quot;dashed&quot;) +
+    geom_vline(xintercept = ci_upper, linetype=&quot;dashed&quot;) +
+    theme_bw() +
+    labs(
+        x=&quot;Mean&quot;,
+        y=&quot;Relative probability&quot;,
+        col=&quot;&quot;,
+        title=paste0(
+            &quot;Prior and Posterior distribution of mean average rent (£) after &quot;,
+            n, &quot; samples&quot;
+        ),
+        subtitle=paste0(
+            &quot;95% credible interval for the mean: [&quot;,
+            round(ci_lower, 2), &quot;,&quot;, round(ci_upper, 2), &quot;]&quot;
+        )
+    )</code></pre>
+<p><img src="/post/confidence_and_credible_interval_files/figure-html/bayesian_update-1.png" width="672" /></p>
+<p>Well that’s interesting. This method tells us that our credible interval is
+<strong>[1161.27, 1368.35]</strong>.
+We found that by chopping the posterior curve at points that leave 95% of the
+area under the curve (probability mass). Technically this isn’t a unique area
+but given that the normal distrubution is symmetric about the mean then we can
+just chop an equal distance either side of the mean. Compare that to the
+confidence interval we calculated earlier which was
+<strong>[1137.96, 1356.38]</strong>.</p>
+<p>In this method we said that our prior knowledge tells
+us that £1500 is a possible mean, but we aren’t really that certain and we think
+that values that are a few hundred £ either side are also very possible. Then
+we observed our 30 samples like before and used that to update our belief. This
+created our “posterior” which is a lot more narrow. This says we are a bit more
+certain which range of values are actually realistic. Notice that our credible
+interval is actually a little higher than the confidence interval. That is
+because we don’t totally discard our prior belief that £1500 is a sensible mean,
+we simply update our belief depending on how much new data we saw.</p>
+<p>Just for interest we can pretend that we keep sampling until we get lots and
+lots of data. The beauty of Bayesian updating is that we use this posterior
+above as a prior (it’s our latest belief about what is true) and update it
+with new data to create a new posterior!</p>
+<pre class="r"><code># Let&#39;s sample 500 more people
+n2 &lt;- 500
+new_sample &lt;- rnorm(n=n2, mean=mu, sd=sd)
+
+# We turn our posterior into a prior
+prior_mu &lt;- posterior_mu
+prior_sd &lt;- sqrt(posterior_sigma)
+prior_probabilities &lt;- dnorm(param_vals, mean=prior_mu, sd=prior_sd)
+
+# Now let&#39;s do the update again
+posterior_mu &lt;- ((prior_mu/(prior_sd^2)) + (sum(new_sample)/(sd^2)))/
+                ((1/prior_sd^2) + (n2/(sd^2)))
+posterior_sigma &lt;- 1/((1/(prior_sd^2)) + (n2/(sd^2)))
+posterior_probabilities &lt;- dnorm(
+    param_vals, mean=posterior_mu, sd=sqrt(posterior_sigma)
+)
+
+# Now combine all 3 together
+bayesian_update2 &lt;- data.table(
+    vals = param_vals,
+    prior = prior_probabilities,
+    posterior = posterior_probabilities
+)
+
+# Calculate the 95% credible interval
+ci_lower &lt;- qnorm(0.05/2, mean=posterior_mu, sd=sqrt(posterior_sigma))
+ci_upper &lt;- qnorm(1-(0.05/2), mean=posterior_mu, sd=sqrt(posterior_sigma))
+
+ggplot(
+    melt(bayesian_update2, id=&quot;vals&quot;), aes(x=vals, y=value, col=variable)
+) +
+    geom_line() +
+    geom_vline(xintercept = ci_lower, linetype=&quot;dashed&quot;) +
+    geom_vline(xintercept = ci_upper, linetype=&quot;dashed&quot;) +
+    theme_bw() +
+    labs(
+        x=&quot;Mean&quot;,
+        y=&quot;Relative probability&quot;,
+        col=&quot;&quot;,
+        title=paste0(
+            &quot;Prior and Posterior distribution of mean&quot;,
+            &quot;average rent (£) after &quot;,
+            n, &quot; samples&quot;
+        ),
+        subtitle=paste0(
+            &quot;95% credible interval for the mean: [&quot;,
+            round(ci_lower, 2), &quot;,&quot;, round(ci_upper, 2), &quot;]&quot;
+        )
+    )</code></pre>
+<p><img src="/post/confidence_and_credible_interval_files/figure-html/2nd_bayesian_update-1.png" width="672" /></p>
+<p>Look at that. Now we are saying that the most likely range of values for which
+our true mean is lies between
+<strong>£[1177.84, 1228.81]</strong>
+which is quite tight around our true value of <strong>1200</strong>.</p>
+</div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
+<p>Interpreting statistics is a minefield, both in complexity and danger. When you
+reflect on the fact that statistics such as these are important for things such
+as medical research it’s clear that the consequences of misinterpreting values
+can have dire consequences. When we later come to visit P-values we’ll see that
+not being careful can lead us to make mistakes well over 5% of the time even
+using an alpha level of 95%.</p>
+<p>In the world of intervals it is equally difficult to know which path to follow.
+If you base business decisions on frequentist statistics (e.g. P-values and
+confidence intervals) then you expect to make wrong conclusions for a fixed
+amount of experiments, but that’s fine because if you do everything right you
+can control for it. If you take a Bayesian approach you can incorporate prior
+beliefs such as previous test or just sensibility checks, you can also express
+your estimation of some value as a range of probabilities - sure you ran your
+test for 6 months and see a clear effect emerging but there is some probability,
+no mattter how small, that the real effect size is 0. Nevertheless you still
+have to set some decision criteria otherwise you will never end a test and
+accept a new feature, and because of that sometimes you will be wrong still!</p>
+<p>I hope I did these intervals some justice, and I welcome some robust review of
+what I wrote above. I am basing this on recently-enhanced knowledge and reading
+a mixture of articles to confirm my understanding, and the fact is I am either
+completely right about what I wrote or have made some mistake. In my mind I
+have established some credibility about what I wrote and my arbitrary decision
+criteria has lead me to post this.</p>
+</div>
