@@ -35,7 +35,10 @@ remove_kcal <- function(string){
     return(as.numeric(str_remove(string, "kcal")))
 }
 scales_data[, `:=` (
-    time = as_datetime(time, format="%b %d, %Y %I:%M:%S %p"),
+    time = as_datetime(
+        str_remove_all(time, "\\."),
+        format="%b %d, %Y %I:%M:%S %p"
+    ),
     weight = remove_kg(weight),
     bmi = as.numeric(bmi),
     body_fat = remove_percent(body_fat),
