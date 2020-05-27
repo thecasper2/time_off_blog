@@ -1,7 +1,7 @@
 ---
-title: "Project Ginger Beer"
+title: "Update: Project Ginger Beer"
 author: "Alex Dolphin"
-date: 2020-05-18T19:21:00+01:00
+date: 2020-05-25T10:01:00+01:00
 categories: ["R"]
 tags: ["food"]
 ---
@@ -37,5 +37,40 @@ This process is quite similar to the one I use to create a sourdough yeast for
 pizza. That one is simply a mixture of flour and water, apparently the
 carbohydrates in flour are sufficient food for the yeast that also lives inside
 the flour.
+
+# Bottling Time
+
+After creating the ginger bug apparently it was time to bottle after about 2-3
+days. I got a bit sidetracked (I also didn't buy lemons in time...) and so
+bottling came approximately 5 days after starting the bug. Hopefully it's
+something that gets better with age.
+
+The next step was to boil up a large amount of water, ginger and sugar in a pot
+for 10 minutes, and then let it cool. After it cooled I added some (maybe half)
+of the ginger bug into the mixture and the juice of a lemon.
+
+When I was making the large mixture I actually blended ginger, so I was left
+with a ginger paste which wouldn't remove the ginger if I used a sieve. Thanks
+to my creative thinking I used a Vietnamse coffee filter which was perfect!
+I placed it in some large bottles and poured the mixture through. It removed
+lots of the fine ginger but left enough sediment through to make the mixture
+look authentic somehow.
+
+<center>
+![Creative bottling](/post/project_ginger_beer_files/bottling.jpg){width=50% height=50%}
+
+</center>
+
+This morning concluded the first overnight session of the bottled ginger. It
+should be fermenting away and producing alcohol and carbon dioxide. The real
+test was to "burp" the beer. I quickly opened the bottles and to my satisfaction
+a loud pop ensued! This is a great sign that fermentation is underway. I will
+leave this process going maybe for around 4-6 days, burping daily, then will
+move them to the fridge.
+
+<center>
+![Fermenting away nicely](/post/project_ginger_beer_files/bottled.jpg){width=50% height=50%}
+
+</center>
 
 More to follow later!
