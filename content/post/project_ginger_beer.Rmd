@@ -1,7 +1,7 @@
 ---
-title: "Update: Project Ginger Beer"
+title: "Project Ginger Beer"
 author: "Alex Dolphin"
-date: 2020-05-25T10:01:00+01:00
+date: 2020-06-01T20:30:00+01:00
 categories: ["R"]
 tags: ["food"]
 ---
@@ -73,4 +73,19 @@ move them to the fridge.
 
 </center>
 
-More to follow later!
+# The Final Product
+
+After some high-pressure situations I finally got to drink the end product. The
+carbonation was extreme, if you don't burp the bottle daily I think it's fair
+to say you have a grenade sitting in your kitchen. The taste was great, it was
+very sweet due to all the sugar but you could tell there was an alcoholic
+aspect. It doesn't feel very strong (maybe 2-3% from extensive alcohol-drinking
+experience) but that isn't a problem, I brewed 8 litres after all.
+
+<center>
+![The end product!](/post/project_ginger_beer_files/ginger_beer.jpg){width=50% height=50%}
+
+</center>
+
+All-in-all I can highly recommend brewing ginger beer from home. It's very easy
+and rewarding.

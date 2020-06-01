@@ -104,4 +104,13 @@ blog, and you can follow my progress on the [weight page](/page/weight).
 
 # Drone Flying
 
-...
+At the start of 2020 I bought myself a fixed-wing drone called a
+[parrot disco](https://www.parrot.com/uk/drones/parrot-disco-fpv). It's a bit
+different to the usual quadcopter in that it runs more like a plane, it uses
+a propeller and wings to fly but can't land vertically. I have been a flying
+enthusiast for a long time and it is probably as close as I'll get to actual
+flying.
+
+It has a first-person camera which can record some very nice aerial footage.
+There is a page dedicated to the footage and I will keep adding videos as I get
+the chance to fly.
