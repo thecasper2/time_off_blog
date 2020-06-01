@@ -1,0 +1,51 @@
+---
+title: "A Quick Disco Flight"
+author: "Alex Dolphin"
+date: 2020-06-01T09:50:00+01:00
+categories: ["R"]
+tags: ["drone"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+Drone flying in Germany can be challenging: finding a spot that isn't within a
+Naturschutzgebiet, is 100m from a highway, and isn't voilating privacy laws
+leaves little room to fly a device that requires at least an 80m radius to
+land. But when you do find somewhere it is often rewarding as Germany is
+surprisingly green and beautiful.
+
+Yesterday I came across a nice but compact spot near
+[Weibersbrunn](https://goo.gl/maps/P2AwEJgN65wSSXvaA), an area that apparently
+was (and still seems to be) a timber yard.
+
+<center>
+![A timber yard for railway sleepers, veneering, and barrique barrels](/post/disco_weibersbrunn_files/timber_yard.jpg){width=50% height=50%}
+
+</center>
+
+The town itself seems to be a small clearing in what is otherwise dense forest.
+It didn't leave much space to fly and I was definitely worried about losing my
+drone in the trees, but it turned out to be just enough space (and just far
+enough from the highway) despite a rather poor landing.
+
+<center>
+![A town surrounded by dense forest](/post/disco_weibersbrunn_files/Screenshot 2020-06-01 at 11.18.40.png){width=50% height=50%}
+
+</center>
+
+Here is the video of the flight:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KP1NRRa_8n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+And as a bonus here is a nice picture I took of some old caravan-type thing I
+came across on the edge of the forest.
+
+<center>
+![Found hidden in the forest](/post/disco_weibersbrunn_files/forest_caravan.jpg){width=50% height=50%}
+
+</center>
