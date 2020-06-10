@@ -1,0 +1,169 @@
+---
+title: "Can I Make Bibimbap?"
+author: "Alex Dolphin"
+date: 2020-06-10T09:56:00+01:00
+categories: ["R"]
+tags: ["food"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+Those that know me well may know that I err on the side of caution when it comes
+to things I don't know; they may also know that I'm not Korean.
+
+I usually have a bit of background knowledge about the things I cook, at the
+very least I have usually eaten the dishes tens of times. I have only previously
+eaten Bibimbap once and it was incredibly tasty, but I really don't know a lot
+about the dish. Under usual caution I'm not going to give a detailed history of
+the dish but I'll give my expedition into my first time trying to make it and
+what I learnt along the way.
+
+The first resource I found was a rather lengthy but informative
+[youtube video](https://www.youtube.com/watch?v=6QQ67F8y2b8) from a lady called
+Maangchi. She was showing the difference between a "normal" Bibimbap and Dolsot
+Bibimbap, the latter is assembled in a stone pot and heated further before
+serving. It went into a lot of detail and used ingredients like Fernbrake which
+I can honestly say I've never heard of before. Top marks for the recipe but it's
+not where I wanted to start.
+
+Eventually I found a simpler recipe 
+[at this website](https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/).
+If you want to try and make the dish then I strongly encourage you to give it a
+go. I'm not going to repeat the recipe below but I will share some things I
+learnt along the way and the end result; we all know that following recipes
+isn't always as simple as it sounds.
+
+# Spinach and Mung Bean Sprouts
+
+There are to subrecipies in the main recipe but they are really easy and by
+themselves they actually make really tasty side dishes, they are the seasoned
+spinach and mung bean sprouts. Spinach is really easy to pick up in large
+amounts at a supermarket, mung bean sprouts I found quite cheaply at
+[Tains Asian Supermarket](https://g.page/Tains_DUS?share).
+
+<center>
+![Seasoned spinach](/post/bibimbap_files/IMG_20200609_194925.jpg){width=50% height=50%}
+
+</center>
+
+They both cook so quickly; the spinach only needs 30 seconds of boiling.
+Afterwards you rinse them both under cold water to stop the cooking. This is
+great because they're going to be cold anyway so you don't have to hurry with
+the rest of the dish!
+
+<center>
+![Seasoned mung bean sprouts](/post/bibimbap_files/IMG_20200609_201211.jpg){width=50% height=50%}
+
+</center>
+
+The seasoning is really easy too. Sesame seeds, garlic, sesame oil, and spring
+onion are all incredibly easy to find.
+
+# Mushrooms
+
+This may not seem like the most exciting part of the dish but it is when you
+somehow pick up dried "black fungus". I found it in the Asian supermarket and
+thought let's give it a try, it's a jelly-like mushroom and is very dark. I
+have found no evidence of its use in making Bibimbap but I can testify to it
+being tasty.
+
+<center>
+![Also known as cloud ear fungus](/post/bibimbap_files/IMG_20200609_201317.jpg){width=50% height=50%}
+
+</center>
+
+Just remember to give it 60 minutes to rehydrate. According to the internet it's
+not in any way dangerous but as per the packet instructions I boiled it for 10
+minutes by itself, it came out great! This is all an aside, I'm sure shiitake
+mushrooms are equally great in the dish.
+
+<center>
+![The rehydrated fungus](/post/bibimbap_files/IMG_20200609_201340.jpg){width=50% height=50%}
+
+</center>
+
+# The "meat"
+
+I used vegetarian mince for my portion. The main thing to remember is it's a
+small component of the dish so you don't need much more than 100g. If you end up
+buying 500g then make sure you're making more than one serving or have a plan
+for the leftovers.
+
+<center>
+![This is real beef mince, not particularly beautiful](/post/bibimbap_files/IMG_20200609_202550.jpg){width=50% height=50%}
+
+</center>
+
+Again the seasoning is really easy, soy sauce, sesame oil, garlic and sugar are
+once again easy to come by. You can even have the beef raw if you are certain
+of the quality and freshness of your beef. For the vegetarian mince I obviously
+cooked it, vegetarian beef tartare is a ridiculous concept.
+
+# The easy ingredients
+
+As per the recipe I added some carrots and topped the assembled dish with a
+fried egg. There really is nothing fancy here but if you want carrots
+"julienned" (it's a form of cutting) then there are many youtube videos on how
+to do this neatly. I just sliced the carrots very diagonally to get wide pieces
+and then cut them up into matchsticks.
+
+<center>
+![I can't even julienne a carrot properly](/post/bibimbap_files/IMG_20200609_202304.jpg){width=50% height=50%}
+
+</center>
+
+# Gochujang
+
+Gochujang is a Korean red chilli paste. I can't tell you much about the taste
+because I completely forgot to look for it. I read somewhere that it's primary
+purpose is to add heat to the bibimbap and a good replacement is Sriracha chilli
+sauce, which by some miracle I had.
+
+<center>
+![This is not Gochugang - Sriracha sauce to the rescue](/post/bibimbap_files/IMG_20200610_114733.jpg){width=50% height=50%}
+
+</center>
+
+Looking at the ingredients in Gochujang it looks quite tasty, so I doubt that
+it is only adding heat. I will definitely look for this when I next make
+Bibimbap, some may say I didn't even make Bibimbap this time by forgetting it
+as an ingredient.
+
+# Rice
+
+I get the impression that slightly sticky rice is better for this dish, that
+requires quite a glutinous rice. All I had available was jasmine rice but it
+is possible to make it sticky. Doing this is quite simple:
+
+1) Don't wash the rice, the starch on the rice creates the stickiness
+2) Use just enough water, for 1 measure (a cup, a mug, a chalice, etc.) of rice
+you need two measures of water
+3) Put it in boiling water, close the lid, turn the heat down to minimum and
+leave it alone for 8 minutes. Do not take the lid off!
+4) All the water should be gone, turn off the heat and enjoy
+
+# The final result
+
+Thanks for making it this far, or at the very least just scrolling directly to
+the end. All that remained was the assembly process. Line the bottom half of the
+bowl with rice, then in sections add the other ingredients, including the
+gochujang, and top with a fried egg. I decorated with some chopped spring onion
+and toasted seasame seeds.
+
+<center>
+![Mid-assembly](/post/bibimbap_files/IMG_20200609_203752.jpg){width=50% height=50%}
+
+![Post-assembly](/post/bibimbap_files/IMG_20200609_204349.jpg){width=50% height=50%}
+
+</center>
+
+Then you just mix it all up and enjoy!
+
+<center>
+![Post-mixing](/post/bibimbap_files/IMG_20200609_204710.jpg){width=50% height=50%}
+
+</center>
+
+And yes, I forgot to add the seaweed that I bought. Many lessons learned here.
