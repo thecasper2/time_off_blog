@@ -1,0 +1,93 @@
+---
+title: "Final Trip Preparations"
+author: "Alex Dolphin"
+date: 2020-06-24T12:10:44+01:00
+categories: ["R"]
+tags: ["travel"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+The lack of posts in recent days is mostly due to extensive trip preparations
+in advance of a departure on Saturday, but with most of those complete I can
+share my exciting plans!
+
+# A New Drone
+
+Naturally this is one of the most exciting parts for me. My other drone, the
+Parrot Disco, is very large, hard to transport, and requires a lot of space for
+takeoff. Definitely not ideal for capturing footage of wooded areas, beaches,
+and places not so accessible by car. After a short amount of research the
+obvious travel drone is the DJI Mavic Mini.
+
+<center>
+![A compact travel companion](/post/final_preparations_files/IMG_20200624_114855_1.jpg){width=50% height=50%}
+
+</center>
+
+With 3 batteries serving approximately 20 minutes of flight-time each, the
+possibility to charge via USB in the car, all coming inside a 28x19x8cm carry
+case, it's a clear winner. I tested it out on the bank of the Rhein in
+Düsseldorf, check out the video below.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AR4Ip14tD7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+# The First Few Stops
+
+In the previous post I embedded my route through Italy and Greece, so if you're
+interested in the full route I encourage you to take a look. I just wanted to
+focus on the first 3 stops en route.
+
+## Munich
+
+The lesser-visited city in all road trips of Italy, the southern-German city
+of Munich is my first stop. This is purely to break up the first big drive,
+pay a visit to [James Conolly](https://www.instagram.com/conolly/). I don't
+suppose my visit will be particularly cultural, instead likely focusing on
+(as he would call it) achieving an advanced state of refreshment.
+
+## The Dolomites
+
+The first Italian stop is
+[this campsite in the Dolomites](https://goo.gl/maps/DjcnjwC8PskhyhKr6). The
+area is littered with winter ski slopes which I'm hoping delivers some really
+nice panoramic views and walking trails in the summer. I was also recommended
+the nearby town of
+[Ortisei/Urtijëi](https://en.wikipedia.org/wiki/Urtij%C3%ABi) which has 
+[a rather bizarre pronounciation](https://en.wikipedia.org/wiki/File:Urtijei.ogg).
+
+It's also a great opportunity to test out the viability of my tent in warm
+weather!
+
+<center>
+![A spacious tent](/post/final_preparations_files/IMG-20200624-WA0000.jpg){width=50% height=50%}
+
+</center>
+
+After leaving I'll have a quick chance to visit the highly-rated
+[Lake Garda](https://goo.gl/maps/u5TyY4fkvi5XU9Yc9). Aside from being quite
+beautiful there appears to be a number of places to swim, ideal for the
+underwater GoPro footage!
+
+## Verona
+
+After approximately 3 years I make my return to hostelling with a stay at
+[The Hostello in Verona](https://goo.gl/maps/THuhFPw1X7vWFCPF9). During my
+2-night stay in the city there are a number of obvious highlights. The obvious
+highlight is [The Verona Arena](https://goo.gl/maps/cCxgekaoxdkFrQdG9), a well
+preserved Roman amphitheater. Verona is also the setting for Shakespeare's Romeo
+& Juliet, a significant number of tourists flock to Juliet's house.
+
+I have read that 1 day is probably enough to see the sights, but it can't hurt
+to relax and potentially eat beyond my comfort level.
+
+# The Rest
+
+As I said in the previous post I'm going to keep this blog awash with posts
+from the trip. Drone footage, Underwater GoPro footage, tales, photos, history,
+I will do my very best to document how the trip goes!
