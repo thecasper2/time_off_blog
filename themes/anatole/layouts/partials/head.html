@@ -4,7 +4,7 @@
     {{- hugo.Generator -}}
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="{{ .Site.Params.description }}">
-    <link rel="stylesheet" href="{{ `css/style.css` | absURL }}" type="text/css">
+    <link rel="stylesheet" href="{{ `css/style.css?ver=1.1` | absURL }}" type="text/css">
     {{ range .Site.Params.customCss -}}
     <link rel="stylesheet" href="{{ . | absURL }}" type="text/css">
     {{- end }}
