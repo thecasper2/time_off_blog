@@ -9,8 +9,12 @@ tags: ["drone"]
 At the start of 2020 I purchased a
 [Parrot Disco fixed-wing drone](https://www.parrot.com/be/drones/parrot-disco-fpv)
 from eBay, flying fixed-wing seemed much more exciting than a standard
-quadcopter drone. Now that I am the proud owner of a Parrot Disco, I will post
-the footage taken below for you to enjoy!
+quadcopter drone.
+
+Following the successful flights from this drone I decided to buy a more
+compact drone, the [DJI Mavic Mini](https://www.dji.com/de/mavic-mini).
+
+Below is a feed of all the footage taken from my drones.
 
 # The Sculpture Hall - Neuss
 
@@ -25,3 +29,16 @@ A quick flight near [Weibersbrunn](https://goo.gl/maps/P2AwEJgN65wSSXvaA)
 on my way to Munich on 31/05/2020.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KP1NRRa_8n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Neuschwanstein
+A flight next to [Neuschwanstein Castle](https://goo.gl/maps/GigUrkGPzJGvvieUA)
+on 03/06/2020
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eu_p0xkGD0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Forggensee
+
+A flight next to [Forggensee](https://goo.gl/maps/gA4sUwqBW6xKyMoR9) on
+03/06/2020.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IHSLgd4pz8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
