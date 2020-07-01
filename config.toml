@@ -16,6 +16,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
 title = "Alex Dolphin"
+location = ":it:"
 author = "Alex Dolphin"
 description = "A career break adventure"
 profilePicture = "images/DJI_0177.png"
