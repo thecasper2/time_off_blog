@@ -10,7 +10,7 @@ enableEmoji = true
 disqusShortname = "time-off"
 
 # Google Analytics
-googleAnalytics = ""#"UA-166941798-1"
+googleAnalytics = "UA-166941798-1"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
