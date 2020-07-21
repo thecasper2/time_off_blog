@@ -10,16 +10,16 @@ enableEmoji = true
 disqusShortname = "time-off"
 
 # Google Analytics
-googleAnalytics = "UA-166941798-1"
+googleAnalytics = ""#"UA-166941798-1"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
 title = "Alex Dolphin"
-location = ":it:"
+location = ":greece:"
 author = "Alex Dolphin"
 description = "A career break adventure"
-profilePicture = "images/DJI_0177.png"
+profilePicture = "images/alex_ferry.png"
 keywords = ""
 favicon = "favicons/"
 customCss = []

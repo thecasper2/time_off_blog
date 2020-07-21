@@ -1,0 +1,195 @@
+---
+title: "Perugia & The High Seas :greece: :ship: :it:"
+author: "Alex Dolphin"
+date: 2020-07-21T07:20:47+01:00
+categories: ["R"]
+tags: ["travel"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+I am writing from the early stages of my 23 hour ferry journey between Ancona
+:it: and Patras :greece:. Just before setting off I had time to visit Perugia
+and stay at a B&B on a farm. It was intended as a stop-off but transpiring to
+be one of my favourite Italian cities!
+
+Perugia for me was a little hidden treasure: a city atop a hill with fortress
+walls and narrow maze-like streets within, not to mention a panoramic view
+across the surrounding landscape.
+
+Finally I departed for my final Italian stop: Ancona. A deceptive glimpse of
+the turquoise-blue Adriatic sea is a little let down by a fairly unremarkable
+port city, but thankfully I had a day to explore the surrounding area and there
+was some beautiful coastline to be found. A welcome view before a daunting
+23 hour trip across the Adriatic sea with no accommodation...
+
+# Perugia
+
+The drive from Lake Trasimeno to my accommodation in Perugia only lasted
+approximately 30 minutes. This time I was booked into a dorm room at the
+fascinating [Perugia Farmhouse B&B](https://goo.gl/maps/CPvhFYBgP7qc8nzL9).
+About a 10 minute drive outside Perugia, the farmhouse naturally has a large
+amount of open space for guests as well as a very nice pool. But the real
+icing on my cake was an inbound birthday party the next day which meant I was
+upgraded to my own private little cabin on the farmland!
+
+<center>
+![My welcome upgrade at [Perugia Farmhouse B&B](https://goo.gl/maps/CPvhFYBgP7qc8nzL9)](/post/perugia_high_seas_files/IMG_20200717_111247.jpg){width=50% height=50%}
+
+</center>
+
+The room was very cosy and the ideal place to take a few hours and write my
+previous post.
+
+<center>
+![A cosy little cabin where the previous post was written](/post/perugia_high_seas_files/IMG_20200717_111230.jpg){width=50% height=50%}
+
+</center>
+
+The city of Perugia is set on a hilltop meaning the grounds of the B&B had a
+nice view over the city with the comfort of being in an open rural area.
+
+<center>
+![A view of Perugia](/post/perugia_high_seas_files/IMG_20200717_150648.jpg){width=50% height=50%}
+
+</center>
+
+I have thus far made the claim that Perugia was one of my favourite cities in
+Italy. If you know me, my reluctance to enjoy purely religious history too much,
+and a slight reluctance to visit expensive tourist attractions, you will know
+how delighted I was to ascend into the city by escalator into
+[Rocca Paolina](https://goo.gl/maps/LgfGjs4E1eCSKEkB9), a fortress fully open
+to the public.
+
+<center>
+![[Rocca Paolina](https://goo.gl/maps/LgfGjs4E1eCSKEkB9), a fortress that is free and open to the public](/post/perugia_high_seas_files/IMG_20200718_120840.jpg){width=50% height=50%}
+
+</center>
+
+The fortress was built in 1540-1543 during the Renaissance and was built from
+materials obtained by destroying over a hundred houses, as well as churches and
+monasteries, destroying a whole district. Given that it was built as a show of
+papal power, and at the cost of buildings even more ancient than itself, I
+should find it somewhat appalling, but nevertheless I cannot deny it is an
+interesting structure.
+
+When you reach the top of the fortress remains (again by escalator) you are
+greeted to one of many panoramic views of the surrounding landscape.
+
+<center>
+![A view from [Giardini Carducci](https://goo.gl/maps/vFUq9i4Q4RaK16HW7) above the fortress](/post/perugia_high_seas_files/IMG_20200718_122312.jpg){width=50% height=50%}
+
+</center>
+
+But maybe even more interesting for me is taking a journey into the North-east
+of the city. The streets here were incredibly quiet, free even of locals walking
+around. It was like a maze navigating winding narrow streets with long sets of
+steps leading to nowhere except a few front doors. I get the impression that not
+much has changed in the city since it was built.
+
+<center>
+![Some stairs I thought looked quite nice](/post/perugia_high_seas_files/IMG_20200718_141322.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![The narrow, historic streets of Perugia](/post/perugia_high_seas_files/IMG_20200718_141537_1.jpg){width=50% height=50%}
+
+</center>
+
+Finally a nice quiet place to take in a view over the North-east is
+[Porta Sole](https://goo.gl/maps/4CCPR5XYhp61BMik8). There are some nice benches
+under trees to take in a little landscape in peace.
+
+<center>
+![A view to the north at [Porta Sole](https://goo.gl/maps/4CCPR5XYhp61BMik8)](/post/perugia_high_seas_files/IMG_20200718_134210.jpg){width=50% height=50%}
+
+</center>
+
+The stop in Perugia was more by necessity due to the route to Ancona, it turned
+out to be a worthwhile stop that I would recommend to anyone!
+
+# Ancona
+
+Setting off from Perugia I head for my final Italian stop, the port city of
+Ancona. The first sign of an imminent arrival is a glimpse of the Adriatic sea.
+The city of Ancona itself is not so inspiring, it is clear the city is mostly
+geared towards being a port. I took a brief walk around the city to find
+something to eat and it was quite pleasant, but also unremarkable.
+
+<center>
+![[Piazza Cavour](https://goo.gl/maps/BYSAqeTK1ucGix1e9), the centrepiece of a city I can't say too much about](/post/perugia_high_seas_files/IMG_20200719_194916.jpg){width=50% height=50%}
+
+</center>
+
+Thankfully only a 10-15 minute drive outside of the city takes you to some
+stunning coastline away from the shipping routes. On a warm Sunday afternoon it
+was no surprise to find a lot of locals parked at the top of the hill which
+leads down a steep path to
+[Mezzavalle Beach](https://goo.gl/maps/H2xamHmN6dVd9dn89).
+
+<center>
+![A steep path down to [Mezzavalle Beach](https://goo.gl/maps/H2xamHmN6dVd9dn89)](/post/perugia_high_seas_files/IMG_20200719_141515.jpg){width=50% height=50%}
+
+</center>
+
+I walked down to the lesser-populated end of the beach to enjoy some swimming.
+As the sun began to set it was time to head back to Ancona to prepare for the
+next day, a potentially torturous 23-hour ferry trip with nothing other than
+a small air mattress.
+
+# The sea
+
+**20/07 19:38**
+
+I am sitting inside the ship looking out the window at a pitch-black Adriatic
+sea. I embarked at 16:30 (a full 3 hours later than my ticket time), taking
+as many comforts as I could from my car, before settling down at some seating
+upstairs and enjoying the first of presumably many beers to help pass the time.
+
+<center>
+![Gliding through the Ariatic sea](/post/perugia_high_seas_files/IMG_20200720_191737.jpg){width=50% height=50%}
+
+</center>
+
+Watching the sunset seems to be a nice way to send myself to sleep!
+
+<centre>
+<iframe src="https://drive.google.com/file/d/1lpWFXhucA_TSSM58rQvCziKxzc6VABes/preview" width="640" height="480"></iframe>
+
+</centre>
+
+**21/07 08:22**
+
+My apprehension about getting through the night turned out to be unnecessary.
+Armed with only an inflatable mattress and the warm sea air out on deck I
+managed to get 5 hours of reasonable sleep with even some unusual dreams.
+Ultimately I was woken up by the sunrise over the mountains of Albania, and it
+was hard to be upset by that.
+
+<center>
+![The sun rising over [Mount Çika](https://goo.gl/maps/Cx4xUgBMZQv2GsvB8), Albania at 05:39](/post/perugia_high_seas_files/IMG_20200721_053916.jpg){width=50% height=50%}
+
+</center>
+
+I took some time to enjoy it before the rest of the ship, comfortably sleeping,
+made their appearance.
+
+<center>
+![The sun kept rising, as it does](/post/perugia_high_seas_files/IMG_20200721_060411_1.jpg){width=50% height=50%}
+
+</center>
+
+Then slowly the boat passed between Albania and Corfu, signalling that we were
+approaching the first stop, Igoumenitsa.
+
+<center>
+![Corfu, my first sighting of Greece this trip](/post/perugia_high_seas_files/IMG_20200721_074548.jpg){width=50% height=50%}
+
+</center>
+
+I still have about 6 more hours until we arrive in Patras but I will leave the
+writing for now, you will just have to imagine the views sailing Greek
+coastline for now...
