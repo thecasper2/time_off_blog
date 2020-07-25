@@ -1,0 +1,173 @@
+---
+title: "Patras & Neda Waterfalls :greece:"
+author: "Alex Dolphin"
+date: 2020-07-23T23:13:00+01:00
+categories: ["R"]
+tags: ["travel"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+Entering Greece was more of a challenge than I had hoped for through my own
+stupidity, but once I entered I was met with immediate hospitality in the
+pleasant port of Patras. I have also been treated to arguably the highlight of
+my trip so far, and an early sign of Greek beauty, Neda Waterfalls.
+
+For those planning to visit Greece in times of Coronavirus I cannot stress
+enough that at this point in time it is very easy to visit **if you fill in a
+[passenger locator form](https://travel.gov.gr/#/) at least 24 hours prior to
+arrival**. Failure to do so may cause issues on arrival, and that is all I will
+say about that.
+
+Once I did make it into Greece I stayed two nights in the port of Patras, not
+well known for tourism but nevertheless a pleasant place to stay. Then on
+the Thursday morning I head off early to take a long, hilly journey to go and
+find Neda Waterfalls.
+
+# Patras
+
+The city of Patras is not rife with attractions or things to see but, for a
+city that is not well known outside of Greece, the city is surprisingly vibrant
+with an abundance of exciting places to eat and drink. Not too surprising for
+the 3rd largest city in Greece.
+
+My first night was one of recovery after a tiring boat trip from Italy. I
+headed directly for my hotel,
+[Moxy Patra Marina](https://g.page/moxypatra?share), showered, and headed
+straight into town for some food. The city was alive with people shopping,
+eating, and drinking.
+
+The next day I thought I would check out a nearby park that overlooks the city.
+Although relatively small, it gave a nice view over the city and also over the
+water to the mainland opposite.
+
+<center>
+![A view over Patras from [the park that overlooks the city](https://goo.gl/maps/7iKa9mu2KAyzjxjF9)](/post/patras_neda_waterfalls_files/IMG_20200722_180203.jpg){width=50% height=50%}
+
+</center>
+
+Alongside some planning for my trip to Neda Waterfalls, I also spent some time
+chilling out at the Marina. I was actually approached by some people to ask if
+I was ok by myself which was really nice to ask; I know a few Greek people and
+this sort of kindness is completely ordinary.
+
+<center>
+![Looking out over [Patras Marina](https://goo.gl/maps/51u3uKmmtP4c9fs96)](/post/patras_neda_waterfalls_files/IMG_20200722_130554.jpg){width=50% height=50%}
+
+</center>
+
+One real highlight of the
+[Moxy Patra Marina Hotel](https://g.page/moxypatra?share) is its rooftop bar
+with a view over the marina. The sun sets opposite the marina and it is quite
+something.
+
+<center>
+![The sun begins to set over Patras Marina](/post/patras_neda_waterfalls_files/IMG_20200722_202412.jpg){width=50% height=50%}
+
+</center>
+
+The sunset actually got better and better and created quite a phenomenal
+spectrum of colours over the hills opposite.
+
+<center>
+![The end of the sunset gives an amazing spectrum of colours](/post/patras_neda_waterfalls_files/IMG_20200722_211425.jpg){width=50% height=50%}
+
+</center>
+
+That is all I have to report on Patras. It was the ideal place to take a rest
+after an intense boat ride, and the ideal place to plan my visit to Neda
+Waterfalls.
+
+# Neda Waterfalls
+
+I do not know how the rest of Greece will be able to compare to the
+impressiveness of [Neda Waterfalls](https://goo.gl/maps/3jie8acG9Bqvgvm18),
+but I am reassured by those guiding me that it will.
+
+The walk to the waterfalls begins after a hilly drive through the Peloponnese
+and a rather bumpy off-road trail that leads down to an area to park the car.
+I started my Strava tracking a little late but it is a simple walk down the
+road to where my tracking starts.
+
+<center>
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3804866195/embed/3f110c1eb78caeb40d4a1c656c8900b73ae9949c'></iframe>
+
+</center>
+
+The hike to the waterfalls is relatively simple. The route does require a bit
+of care at times as it isn't always steps and flat path, but nothing more than
+a careful descent down some smooth stones.
+
+<center>
+![A small hike through the trees](/post/patras_neda_waterfalls_files/IMG_20200723_142004.jpg){width=50% height=50%}
+
+</center>
+
+After only about 10-15 minutes of light hiking I was already met by the lower
+section of the waterfall with a brilliant turquoise pool at the bottom. It
+appears you cannot swim in this section but it is not a problem as the real
+prize lies ahead.
+
+<center>
+![[The first waterfall](https://goo.gl/maps/fbd7Re4NpSvtyJNj9), a sign of great things to come](/post/patras_neda_waterfalls_files/IMG_20200723_143014.jpg){width=50% height=50%}
+
+</center>
+
+Again after around 10-15 minutes of further hiking I already found myself at
+the main waterfall. It is a little larger than the other one but with an
+equally impressive pool. The water falls from quite a height above the pool and
+in 35 degree weather it is impossible to not want to get in the water as soon
+as possible.
+
+<center>
+![[The higher waterfall](https://goo.gl/maps/VxqRLnadP3tebvZJ6), amazing to see and also very refreshing to swim in!](/post/patras_neda_waterfalls_files/IMG_20200723_153614.jpg){width=50% height=50%}
+
+
+</center>
+
+Yet somehow on my first step into the water it was apparent that the water is
+ice cold. It took a little while and some bravery to immerse myself in the
+water, but after a few more minutes I was used to the temperature and it was
+incredibly refreshing. I briefly swam under the falling water for the ultimate
+refreshment. I really didn't want to leave the comfort of this waterfall!
+
+<center>
+![The water is wonderfully blue, and incredibly cold](/post/patras_neda_waterfalls_files/IMG_20200723_144611.jpg){width=50% height=50%}
+
+</center>
+
+When I finally found the motivation to leave the waterfall I took the path
+that lead slightly further uphill. It only lasted about 5 minutes but stopped
+almost immediately at a very small monastery and a large cliff-edge into the
+gorge below. The view into the trees and the valley into the distance was worth
+the short detour.
+
+<center>
+![A little further up from the waterfall is a nice, yet terrifying view down the gorge](/post/patras_neda_waterfalls_files/IMG_20200723_154015.jpg){width=50% height=50%}
+
+</center>
+
+Finally on my descent I found a little spot to do some drone flying to get a
+nice shot of one waterfall flowing into the next.
+
+<center>
+<iframe src="https://drive.google.com/file/d/1m8iyN0lkAeB3PpIxDbEVN1h_PgnQ2NEX/preview" width="640" height="480"></iframe>
+
+
+</center>
+
+The route to and from the waterfall is a little challenging at times, as has
+been the entire trip thus far. Somehow my car carries on without the slightest
+sign of issue, it is an unsung hero of this adventure.
+
+<center>
+![The car takes a battering, but ploughs on regardless](/post/patras_neda_waterfalls_files/DJI_0252.JPG){width=50% height=50%}
+
+</center>
+
+This post only covers a couple of days and even in writing it I have had some
+great adventures since. It is going to be a challenge keeping it up to date, if
+you are reading this then I am incredibly grateful for sticking with it and I
+will do the same!
