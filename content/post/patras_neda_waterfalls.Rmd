@@ -153,7 +153,7 @@ Finally on my descent I found a little spot to do some drone flying to get a
 nice shot of one waterfall flowing into the next.
 
 <center>
-<iframe src="https://drive.google.com/file/d/1m8iyN0lkAeB3PpIxDbEVN1h_PgnQ2NEX/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1m8iyN0lkAeB3PpIxDbEVN1h_PgnQ2NEX/preview" width="640" height="480" allowfullscreen="allfullscreen"></iframe>
 
 
 </center>
