@@ -1,0 +1,241 @@
+---
+title: "Archaia Olympia & Stemnitsa :greece:"
+author: "Alex Dolphin"
+date: 2020-07-23T23:13:00+01:00
+categories: ["R"]
+tags: ["travel"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+I am in two minds about writing this as a single post; a visit the site of the
+ancient Olympic games over 2500 years ago, and a truly incredible hike between
+two villages in the Peloponnese mountains. To think that everything I have seen
+on this trip to Greece is in one region of the mainland is incredible.
+
+I beg of you to take the time to at least glance at both sections of this post.
+As someone not well versed in history I was overwhelmed by the site of the
+ancient Olympic games, and as a fairly amateur hiker I was amazed by the
+beauty and natural diversity of the hike between the mountainous villages
+of Stemnitsa and Dimitsana. I am certain that either one of these sections will
+inspire you to one day take a trip to the Peloponnese region of mainland Greece. 
+
+# Archaia Olympia
+
+The main town of Archaia Olympia is fairly touristy, but by no means in an
+unpleasant way. There are shops with postcards and fridge magnets, and even a
+pizza restaurant. But they also have something that makes this town historically
+incredible, the archaeological ruins of the site of the original Olympic games
+from over 2500 years ago.
+
+In this post I can't possibly give a full account of what went on at the
+Olympic games, the history is just so detailed and spans nearly 1200 years of
+games! The best I can hope to do is give a flavour of the original games and
+encourage you to embark on a journey to visit this town and take in its history.
+
+There are actually three sites to visit in the area and all are covered under
+one €12 ticket. They are:
+
+- [The Museum of the History of the Olympic Games of antiquity](https://goo.gl/maps/pLKUShMfcqbtJ6fL6)
+- [The Archaeological Site of Olympia](https://goo.gl/maps/gSfv2fpX4K2mGivV6) (the physical archaeological remains)
+- [Archaeological Museum of Olympia](https://goo.gl/maps/BEjHRsFzAbv9Dcd86)
+
+My first stop was the museum of the history of the games, and this is the ideal
+place to start as it really helps to understand what went on at the games
+before seeing the physical site.
+
+<center>
+![The museum is full of well-preserved articles found from the site](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200724_121507.jpg){width=50% height=50%}
+
+</center>
+
+There are hundreds of, figurines, bronze works, statues, and stone works that
+were retrieved from the site and given the age of these items it is incredible
+just how well-preserved everything is. I could not believe I was looking at
+items in some cases made over 2500 years ago. The information available at the
+museum is also extensive.
+
+<center>
+![The information plaques at the museum are the perfect precursor to the visit to the archeological site](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200724_121605.jpg){width=50% height=50%}
+
+</center>
+
+The games lasted an incredible 1169 years before finally being abolished in
+393 AD by Roman Emperor Theodosius I. The athletes needed to be Greek, and
+born a free citizens to parents who were also free citizens. The games could be
+attended by almost everyone, barbarians, slaves, rich, poor, but women were
+forbidden from attending the games. One notable exception was made:
+[Kallipateira](http://ancientolympics.arts.kuleuven.be/sourceEN/D105EN.html),
+daughter of Olympic champion Diagoras secretly went to see the games to see her
+son Peisirodos compete in the boxing. Out of respect for the athletic history
+of her family she was spared punishment.
+
+After reading all this impressive history I was expecting to only be able to
+see such a historic archaeological site from quite a distance. I was therefore
+quite surprised to learn that you can walk almost through the remains
+themselves!
+
+<center>
+![Kronion Thermae, a building of many functions over the years of the games](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200724_141434.jpg){width=50% height=50%}
+
+</center>
+
+You can walk round the entire site comfortably in an hour. The remains of each
+building have a really nice description of what the building was and its
+function. For me the walkway that leads to the main running track is the most
+prominent remaining feature, as it's quite magical to imagine walking down
+that tunnel to 40000 people waiting to watch the games.
+
+<center>
+![The walkway to the main venue for the games](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200724_144114_1.jpg){width=50% height=50%}
+
+</center>
+
+And in fact you can do exactly that, walk through that tunnel and you end up
+at the main track where people sat over 2000 years ago to watch the games.
+
+<center>
+![The main venue for the games, the running track](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200724_143426.jpg){width=50% height=50%}
+
+</center>
+
+There are remains of many buildings around the site, the Temple of Hera where
+the modern Olympic torch is lit, the Temple of Zeus, Octagon (a villa for
+Roman emperor Nero), as well as a meeting and socialising point for the
+athletes.
+
+<center>
+![A meeting point for the athletes with an outdoor pool](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200724_145925.jpg){width=50% height=50%}
+
+</center>
+
+Finally after walking through the archaeological remains I headed to
+[the Archaeological Museum of Olympia](https://goo.gl/maps/BEjHRsFzAbv9Dcd86).
+This is the newer of the two museums and contains further artifacts recovered
+from the archaeological site. This museum focuses less on the history of the
+games, but still includes a large number of interesting figurines and statues.
+
+<center>
+![Hermes of Praxiteles, found in the [Temple of Hera](https://goo.gl/maps/o4xqAMNsP1eYoMzQA)](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200724_154213_1.jpg){width=50% height=50%}
+
+</center>
+
+My visit to Archaia Olympia all took place on the day I was leaving there, all
+in all only around 5 hours. I then took of in the direction of Stemnitsa to
+tackle the first section of [the Menalon Trail](https://menalontrail.eu/).
+
+# Stemnitsa & Dimitsana
+
+The journey to [Stemnitsa](https://goo.gl/maps/PT8aihq2wvqMRFrEA) involves a
+scenic drive through the mountains with plenty of winding roads. On my arrival
+I checked into [Tsarbou Guesthouse](https://goo.gl/maps/6ZR4pKzA38CsPU3B8).
+The guesthouse is lovely, comfortable and, as is the case with most Greek
+establishments, run by a lovely lady called Christina who couldn't do enough to
+help me. Her breakfasts were especially fantastic, and used ingredients from
+her and her husband's farm.
+
+A 5 minute walk through the town up through a small path gets you to
+[Stemnitsa Castle](https://goo.gl/maps/Z9xy4c8T3Mrx282W9) which has a great
+view over the mountains as well as the village of Stemnitsa itself.
+
+<center>
+![[Stemnitsa](https://goo.gl/maps/H4ezuf149YwazWQt5) as seen from [Stemnitsa Castle](https://goo.gl/maps/Z9xy4c8T3Mrx282W9)](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200724_195806.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![[Stemnitsa](https://goo.gl/maps/H4ezuf149YwazWQt5) as seen from [Stemnitsa Castle](https://goo.gl/maps/Z9xy4c8T3Mrx282W9)](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200724_195511_1.jpg){width=50% height=50%}
+
+</center>
+
+After a fairly relaxed evening I woke up the next day ready to tackle the first
+section of [The Menalon Trail](https://menalontrail.eu/). The whole trail
+consists of 8 sections and 75km. The first section is the 3rd longest at 12.5km
+and takes you down a long descent into the valley before emerging up to the
+village of Dimitsana. Somehow due to small deviations and probably some GPS
+noise I managed to get 16.5km recorded on Strava for my hike.
+
+<center>
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3811359813/embed/de4d9c51cec3b5111e278ddebe076011bbec1058'></iframe>
+
+</center>
+
+The trail starts from the bell tower at Stemnitsa and immediately it is clear
+that there is quite a descent.
+
+<center>
+![The start of the Menalon Trail](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200725_102601_1.jpg){width=50% height=50%}
+
+</center>
+
+It took around 2 hours in total to descend into the valley. The route is
+very well signposted, and at regular intervals there are orange dots painted on
+rocks to ensure you are still on the trail. I am notorious for losing a trail
+and even I found it quite easy to follow this one.
+
+<center>
+![Me as I descend into the valley](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200725_111500_1.jpg){width=50% height=50%}
+
+</center>
+
+At some point during the descent I reached a little monastery known as
+"The transformation of God" (when translated from Greek). Although the building
+isn't so special in itself, the view from the platform is quite daunting. From
+the platform you can see quite a drop down to the valley below, the floor of
+which is obscured by trees.
+
+<center>
+![A view looking a long way down into the valley from ["The transformation of God"](https://goo.gl/maps/dFrTRpn7BSAPFrwN7) ](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200725_115332_1.jpg){width=50% height=50%}
+
+</center>
+
+Continuing further down I eventually reached the lowest point of elevation on
+my hike when crossing a bridge over the river. It was almost teasing as there
+is an impressive waterfall with some beautiful blue water pooling below, but
+absolutely no way to reach it. It would have been a much welcomed refreshing
+swim.
+
+<center>
+![Looking down into the river below at the point of lowest elevation on the hike](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200725_122705.jpg){width=50% height=50%}
+
+</center>
+
+The trail then continues for quite a long time uphill, passing through a mixture
+of woods, gravel paths, and sections of road. Early on in the uphill is another
+monastery, this is an excellent place to take on water if needed. It's also a
+great place to meet a lot of cats!
+
+<center>
+![The many cats of [Moni Panagias Filosofou](https://goo.gl/maps/eqShLXa93PnG69jq9)](/post/archaia_olympia_stemnitsa_dimitsana_files/IMG_20200725_124700_1.jpg){width=50% height=50%}
+
+</center>
+
+Another small treat on the uphill is a stream of water that runs down the
+stairs leading upwards. It's almost impossible to not get your feet wet so I
+took the time to just sit down and cool off with the water follow over my feet.
+
+<center>
+<iframe src="https://drive.google.com/file/d/1oXOZB2aW1qzluGHodOj4ea6HNleQxopm/preview" width="640" height="480" allowfullscreen="allowfullscreen"></iframe>
+
+</center>
+
+After yet more uphill the end was in sight. Just before reaching
+[Dimitsana](https://goo.gl/maps/rQ8zbotqWTnor8Lt9) the route took me past the
+[Open air water power museum](https://goo.gl/maps/FechhvEEFBN8HwQr7), a small
+museum that shows the historic use of water power in the area including for
+making gunpowder.
+
+After a rather tired museum visit I push on for the end, but not before
+spotting an unused football pitch. I took a seat in the dugout and sent my drone
+to inspect Dimitsana, the end of the trail!
+
+<center>
+<iframe src="https://drive.google.com/file/d/1I4-q6juL9zlJ7ihVyF1y3dtxLRMUMEEu/preview" width="640" height="480" allowfullscreen="allfullscreen"></iframe>
+
+</center>
+
+Upon reaching the village I bought a drink, sat down, and then took a taxi back
+to Stemnitsa. 5 hours of hiking was undone by 10 minutes of driving, but I was
+delighted to be back to a comfortable bed and a nice shower.
