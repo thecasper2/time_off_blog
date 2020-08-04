@@ -1,0 +1,216 @@
+---
+title: "Nafplion, Mycenae & Evia Island :greece:"
+author: "Alex Dolphin"
+date: 2020-08-03T18:32:15+01:00
+categories: ["R"]
+tags: ["travel"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+My exit from the Peloponnese was precluded to a visit to the former capital of
+Greece, the beautiful but somewhat touristy Nafplion. There was also time to
+visit the archaeological remains of Mycenae, an incredible ancient centre dating
+back over 3000 years ago. I then made my way to Evia, an island by about 40
+metres of bridge, home to some wonderful beaches and forest.
+
+My travels through Greece are flying by and I am already about 4 stops behind
+in the posts. It's a testament to the volume of things that you have to see and
+do in mainland Greece.
+
+# Nafplion
+
+[Nafplion](https://goo.gl/maps/ndvo6q2aKf6iivRj6) was briefly the capital of
+Greece before Athens. Overlooked by
+[The Fortress of Palamidi](https://goo.gl/maps/rwbFk38D8puS11FC6), the city
+has changed hands over the years including Ottoman occupation up until 1822.
+Although today it has a relatively touristy town centre, it does boast a
+beautiful rocky beach and a castle atop a hillside with a panoramic view.
+
+The easiest place to start when visiting the town is
+[The ruins of Akronauplía](https://goo.gl/maps/1QSuJRW8ivxiPe169).
+
+<center>
+![[The ruins of Akronauplía](https://goo.gl/maps/1QSuJRW8ivxiPe169) with [The Fortress of Palamidi](https://goo.gl/maps/rwbFk38D8puS11FC6) in the background](/post/nafplion_and_evia_island_files/IMG_20200729_123921_1.jpg){width=50% height=50%}
+
+</center>
+
+It is easily reached by a few steps up from the town centre, and provides some
+great views over both the town and the beach.
+
+<center>
+![A view of Nafplion form [Akronauplía](https://goo.gl/maps/1QSuJRW8ivxiPe169)](/post/nafplion_and_evia_island_files/IMG_20200729_123939.jpg){width=50% height=50%}
+
+</center>
+
+The beach itself is definitely worth a visit. The main section of the beach is
+fairly busy with a beach bar just above it, but if you walk only a few minutes
+along it to the more rocky section there is a much quieter area with steps to
+access the sea.
+
+<center>
+![[Arvanitia Beach](https://goo.gl/maps/TjbEnUwfUS5JPfkr7), crystal clear water but watch out for sea urchins](/post/nafplion_and_evia_island_files/IMG_20200728_133626.jpg){width=50% height=50%}
+
+</center>
+
+The sea here is perfectly clear and, on a calm day, you can snorkel to see some
+small coral and fish. For me it was a very welcome respite from 39 degree
+weather.
+
+<center>
+<iframe src="https://drive.google.com/file/d/1kN_NCCqPqCt_jnOxyk0g8yliSZKjgnzg/preview" width="640" height="480" allowfullscreen="allowfullscreen"></iframe>
+
+</center>
+
+Finally later in the day when it was starting to become slightly cooler I
+decided to embark on the climb up the 999 steps to
+[The Fortress of Palamidi](https://goo.gl/maps/rwbFk38D8puS11FC6).
+
+<center>
+![Looking out over Nafplion from the 999 steps up to the [Fortress of Palamidi](https://goo.gl/maps/rwbFk38D8puS11FC6)](/post/nafplion_and_evia_island_files/IMG_20200729_163733_1.jpg){width=50% height=50%}
+
+</center>
+
+The fortress was originally completed by the Venetians during their occupation
+in 1714, but was captured by the Ottoman Empire only a year later. It was only
+then captured by the Greeks in 1822. Although the castle itself is much like
+any other castle, it is the location upon the hilltop giving it a view over
+Nafplion and beyond that makes it really worth visiting.
+
+<center>
+![Inside the [Fortress of Palamidi](https://goo.gl/maps/rwbFk38D8puS11FC6)](/post/nafplion_and_evia_island_files/IMG_20200729_165344_1.jpg){width=50% height=50%}
+
+</center>
+
+In the evening the sun sets over the hills across the bay from Nafplion and, as
+always seems to be the case in Greece, creates a wonderful colourful sunset.
+The west of the town has a number of bars and cafes which provide the ideal
+place to see it, if that is your kind of thing.
+
+<center>
+![The sunset from Nafplion](/post/nafplion_and_evia_island_files/IMG_20200728_211313.jpg){width=50% height=50%}
+
+</center>
+
+# Mycenae
+
+After departing Nafplion I almost forgot to stop by the
+[Archaeological site of Mycenae](https://goo.gl/maps/EkqYcfZMXiwVjKve6). Only a
+20 minute drive from Nafplion, Mycenae was the centre of Greek civilisation
+at its peak in 1350 BC. Considering only a few weeks ago I was discovering
+Renaissance history in Italy, this predates that era by almost 3000 years!
+
+Upon entering the site the first things to see are the grave circle and a pair
+of quite outstanding tombs. The largest is
+[The Tomb of Clytemnestra](https://goo.gl/maps/jtyh7dvbQs32vkXq7) which has a
+walkway that leads into an underground dome.
+
+<center>
+![[The Tomb of Clytemnestra](https://goo.gl/maps/jtyh7dvbQs32vkXq7)](/post/nafplion_and_evia_island_files/IMG_20200730_121825.jpg){width=50% height=50%}
+
+</center>
+
+A slight walk up the hill takes you to the entrance of the city via
+[The Lion Gate](https://goo.gl/maps/qY7LVi9YtTLTftFF8). Somehow the sculpture
+on the gate was never underground in its history.
+
+<center>
+![[The Lion Gate](https://goo.gl/maps/qY7LVi9YtTLTftFF8), the entrance to the bronze age citadel of Mycenae](/post/nafplion_and_evia_island_files/IMG_20200730_123243.jpg){width=50% height=50%}
+
+</center>
+
+A single path takes you round the ruins of the citadel with detailed
+information on the functions of each of the buildings. What I found most
+impressive was the cistern, an underground tunnel that was used to store water.
+It was slightly unnerving to trust a tunnel structure constructed so long ago,
+but I have it on good authority that the design is very sturdy.
+
+<center>
+![Underground Cistern, a rather impressive feat of engineering for a bronze age civilisation](/post/nafplion_and_evia_island_files/IMG_20200730_125402_1.jpg){width=50% height=50%}
+
+</center>
+
+After walking through the ruins there is a small museum to visit with a number
+of artifacts found from the site.
+
+<center>
+![Some surviving artefacts of Mycenae found in the adjacent [Archeological Museum](https://goo.gl/maps/yKVkvuVxrsgA4RZj6)](/post/nafplion_and_evia_island_files/IMG_20200730_130703.jpg){width=50% height=50%}
+
+</center>
+
+# Evia Island
+
+After concluding my visit to Mycenae I embarked on a 3 hour drive past Athens
+to [Evia island](https://goo.gl/maps/JD3bzGGVKq9Wa9689). To the amateur
+cartographer Evia doesn't appear to be an island, but it is entirely separated
+from the mainland by 40 metres at its shortest point.
+
+The island surrounded by beautiful beaches, and contains mountains, forests,
+and gorges with well-documented hiking routes. I started my visit with a
+relaxed day at [Chiliadou Beach](https://goo.gl/maps/xpyDobnAsAYGjHs36). As the
+beach is very wide it was almost free of people.
+
+<center>
+![[Chiliadou Beach](https://goo.gl/maps/xpyDobnAsAYGjHs36)](/post/nafplion_and_evia_island_files/IMG_20200731_145532.jpg){width=50% height=50%}
+
+</center>
+
+The beach is really only accessible by car as one has to go through a series of
+winding roads among the mountains, which themselves offer impressive views.
+
+<center>
+![A mountainous view out to sea on the way back from the beach](/post/nafplion_and_evia_island_files/IMG_20200731_184657_1.jpg){width=50% height=50%}
+
+</center>
+
+On the second day of my stay I found the energy to go on a hike. My hike would
+take me on a loop that started and finished in
+[Steni Dirfyos](https://goo.gl/maps/ssKKtpyDoQaJDXkw7) where I was staying.
+
+<center>
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3848656746/embed/a1b9c93830c88e8765dd6ade6869c6cb08c34452'></iframe>
+
+</center>
+
+The route is well signposted with red markers on trees, although sometimes it
+required a little creativity to get past some large fallen trees.
+
+<center>
+![A hike that was characterised by fallen tress](/post/nafplion_and_evia_island_files/IMG_20200801_120010.jpg){width=50% height=50%}
+
+</center>
+
+At the halfway point in the hike you reach
+[a refuge](https://goo.gl/maps/SYrb2mjSMhu18p769) where those hiking
+Mount Dirfi can choose to stay. I stood at the base of the mountain after an
+already lengthy hike and couldn't resist partially climbing the mountain.
+
+<center>
+![Standing at the starting point for [Mount Dirfi](https://goo.gl/maps/P9pNSk2thkkVz1SFA)](/post/nafplion_and_evia_island_files/IMG_20200801_124536.jpg){width=50% height=50%}
+
+</center>
+
+The route up the mountain is quite challenging, the hiking trail is not
+well-travelled, offers no shade, and is very steep at points. At about one
+third of the way up the mountain I decided I was satisfied with my view and
+headed back down.
+
+<center>
+![My view half way up [Dirfi](https://goo.gl/maps/P9pNSk2thkkVz1SFA)](/post/nafplion_and_evia_island_files/IMG_20200801_142239.jpg){width=50% height=50%}
+
+</center>
+
+Unfortunately I had incorrectly assumed that the latter part of the loop would
+be a casual walk downhill back to Steni Dirfyos. This wasn't the case and I was
+found climbing over a sloped rock face, and walking downhill through thick
+forest. In the heat I quickly ran out of water and ended up doing the last
+90 minutes desperate for a drink. When I finally emerged I headed for the
+nearest restaurant and made a rather bizarre order of a litre of water,
+2 lemonades, and a frappe.
+
+I spent that evening recovering in the hotel room and enjoying watching Arsenal
+lift the FA cup. I slept like a log and the next morning set off on my journey
+for [Meteora](https://goo.gl/maps/N3akeMdKxhPsvS1b6). Thankfully, tired reader,
+I will cover that in my next post in the coming days!
