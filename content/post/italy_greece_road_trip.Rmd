@@ -30,14 +30,14 @@ goes well then at the end of June I will embark on this mission!
 # Italy
 
 <center>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LszmE2qnh-cZ94IqHXCBAjK9oPkH7Anp" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LszmE2qnh-cZ94IqHXCBAjK9oPkH7Anp"></iframe>
 
 </center>
 
 # Greece
 
 <center>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=14HnPbdCHLwQRnrF46Ic_PBnrdqQIQhhv" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=14HnPbdCHLwQRnrF46Ic_PBnrdqQIQhhv"></iframe>
 
 </center>
 

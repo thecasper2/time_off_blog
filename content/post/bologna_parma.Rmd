@@ -31,7 +31,7 @@ now I'm starting to tire a little of. It is the sound of
 [cicadas](https://en.wikipedia.org/wiki/Cicada).
 
 <center>
-<iframe src="https://drive.google.com/file/d/1HBwBOV2HWdHYSGmZrvGiiuUH89QueoOY/preview" width="384" height="60"></iframe>
+<iframe src="https://drive.google.com/file/d/1HBwBOV2HWdHYSGmZrvGiiuUH89QueoOY/preview"></iframe>
 
 </center>
 
@@ -88,7 +88,7 @@ deep and it's amazing to be able to enjoy the sun and swim so close to an
 inland city! I managed to follow the river and pools a little with my drone:
 
 <center>
-<iframe src="https://drive.google.com/file/d/1Cr3LpY7CkVnFWGa1_UW_a7D8qaHOZcE0/preview" width="512" height="288" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://drive.google.com/file/d/1Cr3LpY7CkVnFWGa1_UW_a7D8qaHOZcE0/preview" allowfullscreen="allowfullscreen"></iframe>
 
 </center>
 
@@ -170,7 +170,7 @@ Hopefully the following drone video highlights the remoteness of the castle, I
 highly recommend switching the quality to HD:
 
 <center>
-<iframe src="https://drive.google.com/file/d/1XnwHIiiiUXS9G9VdYHQuFnNVhf4EEe8x/preview" width="512" height="288" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://drive.google.com/file/d/1XnwHIiiiUXS9G9VdYHQuFnNVhf4EEe8x/preview" allowfullscreen="allowfullscreen"></iframe>
 
 </center>
 

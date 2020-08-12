@@ -38,7 +38,7 @@ enough from the highway) despite a rather poor landing.
 Here is the video of the flight:
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KP1NRRa_8n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/KP1NRRa_8n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </center>
 

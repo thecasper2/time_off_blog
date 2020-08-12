@@ -92,7 +92,7 @@ I started my Strava tracking a little late but it is a simple walk down the
 road to where my tracking starts.
 
 <center>
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3804866195/embed/3f110c1eb78caeb40d4a1c656c8900b73ae9949c'></iframe>
+<iframe frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3804866195/embed/3f110c1eb78caeb40d4a1c656c8900b73ae9949c'></iframe>
 
 </center>
 
@@ -153,8 +153,7 @@ Finally on my descent I found a little spot to do some drone flying to get a
 nice shot of one waterfall flowing into the next.
 
 <center>
-<iframe src="https://drive.google.com/file/d/1m8iyN0lkAeB3PpIxDbEVN1h_PgnQ2NEX/preview" width="640" height="480" allowfullscreen="allfullscreen"></iframe>
-
+<iframe src="https://drive.google.com/file/d/1m8iyN0lkAeB3PpIxDbEVN1h_PgnQ2NEX/preview" allowfullscreen="allfullscreen"></iframe>
 
 </center>
 

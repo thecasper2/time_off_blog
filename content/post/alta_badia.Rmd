@@ -56,7 +56,7 @@ I decided tackle the less mountainous area next to Corvara. I forgot to start
 Strava but I did manage to draw the approximate route below.
 
 <center>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19pyHSYKmswupuRKhNreeM5a0RMNkDdeu" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19pyHSYKmswupuRKhNreeM5a0RMNkDdeu"></iframe>
 
 </center>
 
@@ -84,7 +84,7 @@ On the second day of camping the weather started great and I decided to do a
 short hike up to [Cherz](https://goo.gl/maps/5RP97jUhdsnGHdsv9).
 
 <center>
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3697563520/embed/2aef3267263b7d52a67cb6a728186998fee35afe'></iframe>
+<iframe frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3697563520/embed/2aef3267263b7d52a67cb6a728186998fee35afe'></iframe>
 
 </center>
 
@@ -93,7 +93,7 @@ really nice hill with a panoramic view of numerous mountains around, and of
 course I managed a drone selfie.
 
 <center>
-<iframe src="https://drive.google.com/file/d/1jelklJHLkEgz4YzuZOLdtFtm9oFzjrD7/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1jelklJHLkEgz4YzuZOLdtFtm9oFzjrD7/preview"></iframe>
 
 </center>
 
@@ -113,7 +113,7 @@ I was scared of losing my drone to high wind, hopefully you'll agree the brief
 video I did manage to get was quite beautiful.
 
 <center>
-<iframe src="https://drive.google.com/file/d/1HHBU7HXz43326EnelMwFPdyA35HPtiwG/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1HHBU7HXz43326EnelMwFPdyA35HPtiwG/preview"></iframe>
 
 </center>
 

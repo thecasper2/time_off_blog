@@ -29,7 +29,7 @@ the east side of the lake there were ample places to stop and relax and swim,
 staying further from the towns and villages makes it a little quieter.
 
 <center>
-<iframe src="https://drive.google.com/file/d/1W0wKTOuvPr3hBcy_8UL-_pnrEnuxJwcn/preview" width="512" height="288"></iframe>
+<iframe src="https://drive.google.com/file/d/1W0wKTOuvPr3hBcy_8UL-_pnrEnuxJwcn/preview"></iframe>
 
 </center>
 
@@ -134,15 +134,14 @@ art gallery adjacent to it. The climb is 368 steps but there is also an elevator
 in case that seems a little daunting. You can see my climb below.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zAzvAmG28fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/zAzvAmG28fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </center>
 
 The view is excellent and you can even see the mountains in the distance.
 
 <center>
-![The city as seen from [Torre dei Lamberti
-](https://g.page/torredeilamberti?share)](/post/verona_lake_garda_files/IMG_20200703_111625.jpg){width=50% height=50%}
+![The city as seen from [Torre dei Lamberti](https://g.page/torredeilamberti?share)](/post/verona_lake_garda_files/IMG_20200703_111625.jpg){width=50% height=50%}
 
 </center>
 

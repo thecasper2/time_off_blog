@@ -158,7 +158,7 @@ village of Dimitsana. Somehow due to small deviations and probably some GPS
 noise I managed to get 16.5km recorded on Strava for my hike.
 
 <center>
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3811359813/embed/de4d9c51cec3b5111e278ddebe076011bbec1058'></iframe>
+<iframe frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3811359813/embed/de4d9c51cec3b5111e278ddebe076011bbec1058'></iframe>
 
 </center>
 
@@ -217,7 +217,7 @@ stairs leading upwards. It's almost impossible to not get your feet wet so I
 took the time to just sit down and cool off with the water follow over my feet.
 
 <center>
-<iframe src="https://drive.google.com/file/d/1oXOZB2aW1qzluGHodOj4ea6HNleQxopm/preview" width="640" height="480" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://drive.google.com/file/d/1oXOZB2aW1qzluGHodOj4ea6HNleQxopm/preview" allowfullscreen="allowfullscreen"></iframe>
 
 </center>
 
@@ -232,7 +232,7 @@ spotting an unused football pitch. I took a seat in the dugout and sent my drone
 to inspect Dimitsana, the end of the trail!
 
 <center>
-<iframe src="https://drive.google.com/file/d/1I4-q6juL9zlJ7ihVyF1y3dtxLRMUMEEu/preview" width="640" height="480" allowfullscreen="allfullscreen"></iframe>
+<iframe src="https://drive.google.com/file/d/1I4-q6juL9zlJ7ihVyF1y3dtxLRMUMEEu/preview" allowfullscreen="allfullscreen"></iframe>
 
 </center>
 

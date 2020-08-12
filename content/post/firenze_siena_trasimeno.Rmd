@@ -185,7 +185,7 @@ During my cycle there was a little time to capture the lake and its
 surroundings by drone.
 
 <center>
-<iframe src="https://drive.google.com/file/d/1RVjNyDZpaXTDpo56m8c8seYvRgaCgNVN/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1RVjNyDZpaXTDpo56m8c8seYvRgaCgNVN/preview"></iframe>
 
 </center>
 
@@ -210,7 +210,7 @@ And finally just before my departure the next day I was treated to an awesome
 sunset by the lake.
 
 <center>
-<iframe src="https://drive.google.com/file/d/1-PJhPnMHIGk3DlnJVxraY_iPA6oih0Lq/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1-PJhPnMHIGk3DlnJVxraY_iPA6oih0Lq/preview"></iframe>
 
 </center>
 
