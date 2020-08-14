@@ -86,11 +86,11 @@ url = "/index.xml"
   identifier = "about"
   url = "/about/"
 
-#  [[menu.main]]
-#  name = "Posts"
-#  weight = 300
-#  identifier = "posts"
-#  url = "/post/"
+  [[menu.main]]
+  name = "Travel"
+  weight = 300
+  identifier = "travel"
+  url = "/tags/travel"
 
   [[menu.main]]
   name = "Weight"
