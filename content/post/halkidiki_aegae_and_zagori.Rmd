@@ -1,0 +1,145 @@
+---
+title: "Halkidiki, The Royal Tombs of Aegae, & Zagori :greece:"
+author: "Alex Dolphin"
+date: 2020-08-14T08:30:15+01:00
+categories: ["R"]
+tags: ["travel", "Greece"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+```
+
+Knowing my trip is coming to an end, Greece is presenting me its most awesome
+sights in a bid to keep me there. The beautiful coastline of Halkidiki, the
+unbelievably well-preserved tombs at Aegae, and the natural overwhelming beauty
+of Zagori were an unbeatable end to my time in Greece.
+
+The three final stops in Greece comprised of arguably the best examples of each
+category of tourism: the coastline of Halkidiki was the most beautiful I've
+seen so far, the tombs at Aegae and their contents are the best-preserved and
+most stunning of the historical sites I have visited, and Zagori was undoutably
+the best example of natural beauty in Greece.
+
+# Halkidiki
+
+A popular weekend holiday spot for those living in and around Thessaloniki,
+Halkidiki comprises of three peninsulas that extend into the Aegean sea. The
+first, strictly an island as it is divided by a man-made canal, is geared more
+towards tourism. The second focuses more on natural beauty with a range of
+rocky and sandy beaches sometimes accessed from hillsides, although tourism is
+still present courtesy of vacation rentals, beach bars, and boat rentals. The
+third mostly comprises of Mount Athos, home to a number of monasteries built
+upon the mountain, practically only accessible by boat, and rather archaically
+only visitable by men.
+
+After collecting my friends Jake and Nataša from Thessaloniki airport, we headed
+for a long weekend stay at the town of [Vourvourou]() on the second peninsula.
+From this base we would explore the whole peninsula as well as the nearby
+island of [Diaporos]() by boat.
+
+<center>
+
+
+</center>
+
+<center>
+
+
+</center>
+
+<center>
+
+
+</center>
+
+<center>
+
+
+</center>
+
+<center>
+
+
+</center>
+
+# The Royal Tombs of Aegae
+
+After driving West back past Thessaloniki one may be forgiven for dismissing
+the small village of [Vergina](). What actually lies here is not only
+spectacular but of great significance to the spread of Hellenic culture around
+the world. This is where Philip II, father of Alexander the Great, transformed
+the Macedonian empire into one of the world's greatest influential powers. His
+well-preserved remains were discovered here in one of the four almost untouched
+tombs.
+
+Visitors to the tombs enter the archeological site and are greeted by a small
+grassy mound which seems of little importance. A small tunnel that takes you
+underneath the mound suddenly reveals a much larger underground space that
+plays host to some quite incredible archeological remains.
+
+The museum under the mound is kept very dark but contains a number of exhibits
+discovered at the tombs. These range from burial pots and armour to the
+incredible golden ??? in which Philip II was buried, so well preserved it is
+hard to believe it wasn't made recently.
+
+<center>
+![.....](/post/halkidiki_aegae_and_zagori_files/IMG_20200810_160859.jpg){width=50% height=50%}
+
+</center>
+
+There are two staircases in the museum each leading down to the entrance of
+a overwhelming tomb. The first belongs to Philip II, and the second is believed
+to belong to the young son of Alexander the Great and Roxane.
+
+<center>
+![Nataša and Jake admiring the tomb of Philip II](/post/halkidiki_aegae_and_zagori_files/IMG_20200810_160254.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![A similar tomb believed to house the remains of the young son of Alexander the Great](/post/halkidiki_aegae_and_zagori_files/IMG_20200810_161213_1.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![......](/post/halkidiki_aegae_and_zagori_files/IMG_20200810_161721.jpg){width=50% height=50%}
+
+</center>
+
+# Zagori
+
+<center>
+![......](/post/halkidiki_aegae_and_zagori_files/IMG_20200812_114710.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![Making friends with nature](/post/halkidiki_aegae_and_zagori_files/IMG_20200812_132432.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![......](/post/halkidiki_aegae_and_zagori_files/IMG_20200812_133656.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![......](/post/halkidiki_aegae_and_zagori_files/IMG_20200812_135026.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![As I sit down for lunch the lady at the cafe asks if I will visit Beloi](/post/halkidiki_aegae_and_zagori_files/IMG_20200812_151436.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![The comfortable viewpoint offers a stunning view down the valley](/post/halkidiki_aegae_and_zagori_files/IMG_20200812_162329_1.jpg){width=50% height=50%}
+
+</center>
+
+<center>
+![By far the best view I have experienced in Greece, looking down the Vikos Gorge from Beloi Viewpoint](/post/halkidiki_aegae_and_zagori_files/IMG_20200812_161701.jpg){width=50% height=50%}
+
+</center>
