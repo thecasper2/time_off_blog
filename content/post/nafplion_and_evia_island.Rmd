@@ -1,9 +1,9 @@
 ---
-title: "Nafplion, Mycenae & Evia Island :greece:"
+title: "Nafplion, Mycenae, & Evia Island :greece:"
 author: "Alex Dolphin"
 date: 2020-08-03T18:32:15+01:00
 categories: ["R"]
-tags: ["travel"]
+tags: ["travel", "Greece"]
 ---
 
 ```{r setup, include=FALSE}

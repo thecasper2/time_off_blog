@@ -3,7 +3,7 @@ title: "Alta Badia :it:"
 author: "Alex Dolphin"
 date: 2020-07-01T12:22:54+01:00
 categories: ["R"]
-tags: ["travel"]
+tags: ["travel", "Italy"]
 ---
 
 ```{r setup, include=FALSE}

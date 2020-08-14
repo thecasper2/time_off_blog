@@ -3,7 +3,7 @@ title: "Perugia & The High Seas :greece: :ship: :it:"
 author: "Alex Dolphin"
 date: 2020-07-21T07:20:47+01:00
 categories: ["R"]
-tags: ["travel"]
+tags: ["travel", "Italy", "Greece"]
 ---
 
 ```{r setup, include=FALSE}
