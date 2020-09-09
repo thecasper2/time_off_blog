@@ -72,6 +72,6 @@ g <- ggplot(scales_data[time >= ymd("20200301")]) +
     geom_point(aes(x=time, y=weight, col=time_of_day)) +
     theme_bw() +
     labs(x="Date", y="Mass (kg)", col="Time of day")
-ggplotly(g)
+ggplotly(g, dynamicTicks = TRUE)
 ```
 
