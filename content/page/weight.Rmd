@@ -7,7 +7,7 @@ tags: ["fitness"]
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE, echo = FALSE)
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE, warning = FALSE)
 library(data.table)
 library(ggplot2)
 library(plotly)
