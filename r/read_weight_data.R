@@ -8,7 +8,7 @@ get_weight_data <- function(path){
                                "fat_free_body_weight", "subcutaneous_fat",
                                "visceral_fat", "body_water", "skeletal_muscle",
                                "muscle_mass", "bone_mass", "protein", "bmr",
-                               "metabolic_age")
+                               "metabolic_age", "remarks")
     
     remove_percent <- function(string){
         return(as.numeric(str_remove(string, "%"))/100)
