@@ -1,0 +1,58 @@
+# Builds the pre-rendered blogdown site with Hugo and publishes it to GitHub Pages.
+# The posts are already knitted to .html by blogdown, so R is not needed here.
+name: Deploy blog to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # The anatole theme in themes/ dates from 2020; newer Hugo releases break it.
+      HUGO_VERSION: 0.74.3
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Hugo
+        run: |
+          curl -sSL -o hugo.tar.gz \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
+          tar -xzf hugo.tar.gz hugo
+          sudo mv hugo /usr/local/bin/hugo
+          hugo version
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        # canonifyURLs rewrites the posts' root-relative image paths (/post/...)
+        # so they work when Pages serves the site under /<repo>/.
+        env:
+          HUGO_CANONIFYURLS: "true"
+        run: hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
